@@ -64,7 +64,7 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
-Professional Presentations`
+Professional Presentations
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
@@ -84,8 +84,8 @@ Research Experience
 
 Honors and Fellowships
 ======
-* 2025 – 2026: Elinor Ostrom Fellowship, Mercatus Center at George Mason University
 * 2024 – present: Dean's Fellowship, University of Cincinnati
+* 2025 – 2026: Elinor Ostrom Fellowship, Mercatus Center at George Mason University
 * 2025: Policy Fellowship, Crime and Justice Institute
 * 2024: Early Career Travel Award, Division of Convict Criminology, American Society of Criminology
 * 2023: Conference Scholarship Award, National Conference on Higher Education in Prison
