@@ -9,25 +9,25 @@
 
 main:
   - title: "Education"
-    url: /cv/
+    url: /education/
   
   - title: "Work"
-    url: /presentations/    
+    url: /work/    
 
   - title: "Presentations"
-    url: /publications/
-
-  - title: "Publications"
-    url: /teaching/    
-        
-  - title: "Teaching"
-    url: /year-archive/
-
-  - title: "Service"
-    url: /cv/
-  
-  - title: "Skills"
     url: /presentations/
 
+  - title: "Publications"
+    url: /publications/    
+        
+  - title: "Teaching"
+    url: /teaching/
+
+  - title: "Service"
+    url: /service/
+  
+  - title: "Skills"
+    url: /skills/
+
   - title: "Blog"
-    url: /year-archive/
+    url: /blog/
