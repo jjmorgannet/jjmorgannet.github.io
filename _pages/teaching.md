@@ -22,5 +22,5 @@ Undergraduate Courses
 * Adult Basic Education (2015-2018)
 
 ## Student Mentorship
-* Lester, S. (2026). Advisor, Undergraduate Research Practicum, University of Cincinnati. Term: January 2026 to May 2026.
-* Castillo, M. (2025). Advisor, Undergraduate Research Practicum, University of Cincinnati. Term: May 2025 to August 2025.
+* [Lester, S.](https://www.linkedin.com/in/shaylin-lester-759631388/) (2026). Advisor, Undergraduate Research Practicum, [University of Cincinnati](https://www.uc.edu). Term: January 2026 to May 2026.
+* [Castillo, M.](https://www.linkedin.com/in/malaya-castillo/) (2025). Advisor, Undergraduate Research Practicum, [University of Cincinnati](https://www.uc.edu). Term: May 2025 to August 2025.
