@@ -23,12 +23,12 @@ Degrees
 Honors and Awards
 ======
 * 2024 – present: Dean's Fellowship, University of Cincinnati
-* 2025 – 2026: Elinor Ostrom Fellowship, Mercatus Center at George Mason University
-* 2025: Policy Fellowship, Crime and Justice Institute
-* 2024: Early Career Travel Award, Division of Convict Criminology, American Society of Criminology
-* 2023: Conference Scholarship Award, National Conference on Higher Education in Prison
-* 2023: Inducted into Alpha Phi Sigma Criminal Justice Honor Society
-* 2022: Certificate of Appreciation, Bureau of Re-Entry and Transition, Florida Department of Corrections
+* 2025 – 2026: [Elinor Ostrom Fellowship](https://www.mercatus.org/students/elinor-ostrom-fellowship), [Mercatus Center](https://www.mercatus.org/) at [George Mason University](https://www.gmu.edu/)
+* 2025: Policy Fellowship, [Crime and Justice Institute](https://www.cjinstitute.org/)
+* 2024: Early Career Travel Award, [Division of Convict Criminology](https://concrim.org/), [American Society of Criminology](https://asc41.org/)
+* 2023: Conference Scholarship Award, [National Conference on Higher Education in Prison](https://www.higheredinprison.org/nchep)
+* 2023: Inducted into [Alpha Phi Sigma Criminal Justice Honor Society](https://alphaphisigma.org/)
+* 2022: Certificate of Appreciation, Bureau of Re-Entry and Transition, [Florida Department of Corrections](https://www.fdc.myflorida.com/)
 * 2022: Certificate of Recognition for Service to the Community, Re-Entry One
 * 2021 – 2022: Leading with Conviction Fellowship, JustLeadershipUSA
 * 2020 – 2021: Housing Equity, Advocacy, and Leadership Fellowship, Catalyst Miami
