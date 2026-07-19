@@ -38,3 +38,13 @@
 .page__content a:hover {
   text-decoration: none;
 }
+// Remove underline from links, keep default theme color
+.page__content a,
+.archive a {
+  text-decoration: none;
+}
+
+.page__content a:hover,
+.archive a:hover {
+  text-decoration: none;
+}
