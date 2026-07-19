@@ -12,7 +12,7 @@ redirect_from:
 Degrees
 ======
 * Ph.D. in Criminal Justice, University of Cincinnati, _Expected 2028_
-  * Dissertation: TBA | * Advisor: TBA
+  * Dissertation: TBA | Advisor: TBA
 * Graduate Certificate, Data Analytics, University of Cincinnati, Expected 2026
 * Graduate Certificate, Correctional Rehabilitation, University of Cincinnati, 2026
 * M.S. in Criminal Justice, Lamar University, 2023
