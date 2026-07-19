@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 ## Degrees
-======
+==========
 * Ph.D. in Criminal Justice, [University of Cincinnati](https://www.uc.edu), _Expected 2028_
   * Dissertation: TBA \| Advisor: TBA
 * Graduate Certificate, Data Analytics, [University of Cincinnati](https://www.uc.edu), Expected 2026
@@ -21,7 +21,7 @@ redirect_from:
 * Undergraduate Certificate, Basic Law Enforcement, [St. Petersburg College](https://www.spcollege.edu), 2000
 
 ## Honors and Awards
-======
+====================
 * 2024 – present: Dean's Fellowship, [University of Cincinnati](https://www.uc.edu)
 * 2025 – 2026: [Elinor Ostrom Fellowship](https://www.mercatus.org/students/elinor-ostrom-fellowship), [Mercatus Center](https://www.mercatus.org/) at [George Mason University](https://www.gmu.edu/)
 * 2025: Policy Fellowship, [Crime and Justice Institute](https://www.cjinstitute.org/)
