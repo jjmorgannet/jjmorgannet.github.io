@@ -12,7 +12,7 @@ redirect_from:
 Degrees
 ======
 * Ph.D. in Criminal Justice, [University of Cincinnati](https://www.uc.edu), _Expected 2028_
-  * Dissertation: TBA | Advisor: TBA
+  * Dissertation: TBA | Advisor: TBA | GPA: 3.96
 * Graduate Certificate, Data Analytics, [University of Cincinnati](https://www.uc.edu), Expected 2026
 * Graduate Certificate, Correctional Rehabilitation, [University of Cincinnati](https://www.uc.edu), 2026
 * M.S. in Criminal Justice, [Lamar University](https://www.lamar.edu), 2023
