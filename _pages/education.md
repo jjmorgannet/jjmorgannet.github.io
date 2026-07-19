@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-##Degrees
+## Degrees
 ======
 * Ph.D. in Criminal Justice, [University of Cincinnati](https://www.uc.edu), _Expected 2028_
   * Dissertation: TBA \| Advisor: TBA
@@ -20,7 +20,7 @@ redirect_from:
 * B.A. in History, [Eckerd College](https://www.eckerd.edu), 2002
 * Undergraduate Certificate, Basic Law Enforcement, [St. Petersburg College](https://www.spcollege.edu), 2000
 
-##Honors and Awards
+## Honors and Awards
 ======
 * 2024 – present: Dean's Fellowship, [University of Cincinnati](https://www.uc.edu)
 * 2025 – 2026: [Elinor Ostrom Fellowship](https://www.mercatus.org/students/elinor-ostrom-fellowship), [Mercatus Center](https://www.mercatus.org/) at [George Mason University](https://www.gmu.edu/)
