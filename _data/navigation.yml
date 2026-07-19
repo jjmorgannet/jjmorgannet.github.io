@@ -11,14 +11,14 @@ main:
   - title: "Education"
     url: /education/
   
-  - title: "Work"
-    url: /work/    
+#  - title: "Work"
+#    url: /work/    
 
   - title: "Presentations"
     url: /presentations/
 
-#  - title: "Publications"
-#    url: /publications/    
+  - title: "Publications"
+    url: /publications/    
         
 #  - title: "Teaching"
 #    url: /teaching/
