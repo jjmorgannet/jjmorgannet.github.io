@@ -7,7 +7,7 @@ author_profile: true
 
 {% include base_path %}
 
-### Professional Presentations
+## Professional Presentations
 
 * **Morgan, J. J.** (2026, October). Not that different: Examining liberal and conservative criminal justice reform movements. Training to be presented at the Western Region Reentry Summit, Reno, NV.
 * **Morgan, J. J.** (Chair), Fields, L., & Mendis, L. (2026, September). Don't call me a felon: Rewriting the language of crime coverage. Training to be presented at the Society of Professional Journalists Annual Meeting, Columbus, OH.
@@ -30,7 +30,7 @@ author_profile: true
 * **Morgan, J. J.** (Chair), Vest, N., & Saiz, A. J. (2022). One less barrier: Removing legal obstacles for returning citizens. Roundtable held at the Palm Beach Reentry Summit, West Palm Beach, FL.
 * **Morgan, J. J.** (2021). Diversity in law. Training presented at the Clearwater Bar Association Annual Diversity Symposium, Clearwater, FL [Virtual].
 
-### Invited Lectures and Presentations
+## Invited Lectures and Presentations
 
 * **Morgan, J. J.** (2026, March). Introduction to restorative justice. (Instructor: Natalie Artman). Department of Criminal Justice, University of Cincinnati, Cincinnati, OH [Invited Lecturer].
 * **Morgan, J. J.** (2025, November). Beyond the bars: Men's mental health. Hope Alliance & The Soar Foundation, Cincinnati, OH [Invited Virtual Panelist and Facilitator].
