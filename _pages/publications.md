@@ -9,7 +9,7 @@ author_profile: true
 
 ## Professional Publications & Invited Essays
 
-* **Morgan, J. J.** (2026, Spring). Learning community, one sip at a time: Lessons from a mate circle in Buenos Aires. *Dialogue, Academy of Criminal Justice Sciences Restorative and Community Justice Section Newsletter*, 10(1), 22-24.
+* **Morgan, J. J.** (2026, Spring). Learning community, one sip at a time: Lessons from a mate circle in Buenos Aires. *[Dialogue, Academy of Criminal Justice Sciences Restorative and Community Justice Section Newsletter](https://academyofcriminaljusticesciences.growthzoneapp.com/ap/CloudFile/Download/rO83WjMp)*, 10(1), 22-24.
 
 ## Works in Progress
 
