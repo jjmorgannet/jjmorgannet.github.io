@@ -9,8 +9,8 @@ author_profile: true
 
 ## Selected Professional Presentations
 
-* **Morgan, J. J.** (2026). Not that different: Examining liberal and conservative criminal justice reform movements. Training presented at the Western Region Reentry Summit, Reno, NV.
-* **Morgan, J. J.** (Chair), Fields, L., & Mendis, L. (2026). Don't call me a felon: Rewriting the language of crime coverage. Training presented at the Society of Professional Journalists Annual Meeting, Columbus, OH.
+* **Morgan, J. J.** (2026, October). Not that different: Examining liberal and conservative criminal justice reform movements. Training presented at the Western Region Reentry Summit, Reno, NV.
+* **Morgan, J. J.** (Chair), Fields, L., & Mendis, L. (2026, September). Don't call me a felon: Rewriting the language of crime coverage. Training presented at the Society of Professional Journalists Annual Meeting, Columbus, OH.
 * **Morgan, J. J.** (2026). Enemy of the state: Breaking through the barrier of systemic distrust. Plenary talk presented at the Ohio Justice & Policy Center Justice Symposium, Columbus, OH.
 * **Morgan, J. J.** & Hickman, D. (2026). Moving beyond referrals: Best practices for building multidisciplinary teams for reentry. Training presented at the National Conference on Higher Education in Prison, Cleveland, OH.
 * **Morgan, J. J.** (2026). A national census of victim-offender dialogue programs in American prisons: Initial results. Paper presented at the Academy of Criminal Justice Sciences Annual Meeting, Philadelphia, PA.
@@ -49,4 +49,4 @@ author_profile: true
 * **Morgan, J. J.** (2022, August). The role of advocacy in reentry. Florida Atlantic University, Boca Raton, FL [Invited Panelist].
 * **Morgan, J. J.** (2022, April). Ban the box at FAU? A conversation on unlocking higher education access. Florida Atlantic University, Boca Raton, FL [Invited Panelist].
 * **Morgan, J. J.** (2021, November). Quest for peace: The police – to defund or defend? Miami Dade College, Miami, FL [Invited Virtual Panelist].
-* **Morgan, J. J.** (2021, May). The Talk: What Black mothers should tell their kids about the police. Florida Justice Center, Fort Lauderdale, FL [Invited Moderator].
+* **Morgan, J. J.**, Pearson, M. V., & Hobbs, T. (2021, May). The Talk: What Black mothers should tell their kids about the police. Florida Justice Center, Fort Lauderdale, FL [Invited Moderator].
