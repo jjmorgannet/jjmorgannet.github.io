@@ -13,7 +13,7 @@ redirect_from:
 
 * Ph.D. in Criminal Justice, [University of Cincinnati](https://www.uc.edu), _Expected 2028_
   * Dissertation: TBA \| Advisor: TBA
-* Graduate Certificate, Data Analytics, [University of Cincinnati](https://www.uc.edu), Expected 2026
+* Graduate Certificate, Data Analytics, [University of Cincinnati](https://www.uc.edu), _Expected December 2026_
 * Graduate Certificate, Correctional Rehabilitation, [University of Cincinnati](https://www.uc.edu), 2026
 * M.S. in Criminal Justice, [Lamar University](https://www.lamar.edu), 2023
 * M.B.A. in Business Administration, [University of Phoenix](https://www.phoenix.edu), 2011
