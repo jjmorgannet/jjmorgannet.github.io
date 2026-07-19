@@ -7,7 +7,7 @@ author_profile: true
 
 {% include base_path %}
 
-## Selected Professional Presentations
+## Professional Presentations
 
 * **Morgan, J. J.** (2026, October). Not that different: Examining liberal and conservative criminal justice reform movements. Training presented at the Western Region Reentry Summit, Reno, NV.
 * **Morgan, J. J.** (Chair), Fields, L., & Mendis, L. (2026, September). Don't call me a felon: Rewriting the language of crime coverage. Training presented at the Society of Professional Journalists Annual Meeting, Columbus, OH.
