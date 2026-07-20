@@ -12,7 +12,6 @@ redirect_from:
 ## Academic Positions
 
 * 2026 – present: Graduate Teaching Assistant, School of Criminal Justice, [University of Cincinnati](https://www.uc.edu)
-  * <u>[List of courses taught](/teaching/)</u>
 * 2024 – present: Graduate Research Assistant, School of Criminal Justice, [University of Cincinnati](https://www.uc.edu)
 * 2015 – 2018: Adult Education Instructor, [Florida Department of Corrections](https://www.fdc.myflorida.com/)
 
