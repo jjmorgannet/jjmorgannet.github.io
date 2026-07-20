@@ -12,7 +12,7 @@ Work
 ====
 I'm the founder and Chief Operating Officer of [JustDatalytics](https://www.justdatalytics.org), a firm focused on nonprofit executive consulting, fractional C-suite service, data analysis, and technical assistance.
 
-I serve in leadership positions with the [Academy of Criminal Justice Sciences](https://www.acjs.org) and the [American Bar Association](https://www.aba.org), and on three Institutional Review Boards (IRBS): [University of Cincinnati](https://research.uc.edu/support/offices/hrpp/irb), [MDRC](https://www.mdrc.org/), and [North Star Review Board](https://learningirb.org/).
+I serve in leadership positions with the [Academy of Criminal Justice Sciences](https://www.acjs.org) and the [American Bar Association](https://www.americanbar.org), and on three Institutional Review Boards (IRBS): [University of Cincinnati](https://research.uc.edu/support/offices/hrpp/irb), [MDRC](https://www.mdrc.org/), and [North Star Review Board](https://learningirb.org/).
 
 I founded and served for over five years as Executive Director of the [Florida Justice Center](https://www.fljc.org), a statewide legal aid organization. Prior to that, I worked in law enforcement and operations management. That combination of frontline, operational, and advocacy work informs how I approach research: I try to produce findings that are useful to the practitioners and policymakers actually making decisions, not just to other academics.
 
