@@ -11,8 +11,8 @@ main:
   - title: "Education"
     url: /education/
   
-#  - title: "Work"
-#    url: /work/    
+  - title: "Work"
+    url: /work/    
 
   - title: "Presentations"
     url: /presentations/
@@ -23,8 +23,8 @@ main:
   - title: "Teaching"
     url: /teaching/
 
-#  - title: "Service"
-#    url: /service/
+  - title: "Service"
+    url: /service/
   
 #  - title: "Skills"
 #    url: /skills/
