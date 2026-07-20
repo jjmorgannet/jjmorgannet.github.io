@@ -12,7 +12,7 @@ redirect_from:
 Academic Positions
 ======
 * 2024 – present: Graduate Research and Teaching Assistant, School of Criminal Justice, University of Cincinnati
-  * [Courses taught](teaching/)
+  * [Courses taught](/teaching/)
 * 2015 – 2018: Adult Education Instructor, Florida Department of Corrections
 
 Teaching Experience
