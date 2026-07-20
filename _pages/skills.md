@@ -7,7 +7,7 @@ author_profile: true
 
 {% include base_path %}
 
-*Proficiency key: | ★★★★★ Expert · ★★★★☆ Advanced · ★★★☆☆ Intermediate · ★★☆☆☆ Familiar · ★☆☆☆☆ Beginner*
+*Proficiency key: ★★★★ Expert · ★★★☆ Advanced · ★★☆☆ Intermediate | ★☆☆☆☆ Beginner*
 
 ## Data Reporting & Dashboards
 
