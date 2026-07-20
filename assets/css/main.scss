@@ -29,3 +29,14 @@
     "layout/sidebar",
     "layout/json_cv"
 ;
+
+// Remove underline from links, keep default theme color
+.page__content a,
+.archive a {
+  text-decoration: none;
+}
+
+.page__content a:hover,
+.archive a:hover {
+  text-decoration: none;
+}
