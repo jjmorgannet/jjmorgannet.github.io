@@ -26,14 +26,14 @@ author_profile: true
 * Apricot — ★★☆☆☆
 * Fluxx — ★★☆☆☆
 * Quickbooks - ★★☆☆☆
-* Salesforce — ★★★☆☆ (Rank: Ranger)
+* Salesforce — ★★★☆☆ _(Rank: Ranger)_
 * Submittable — ★★☆☆☆
 
 ## Law Office Management
 
-* Clio - ★★★★☆ (Certified Consultant)
-* MyCase - ★★★☆☆ (Certified Consultant)
-* PracticePanther - ★★★★★ (Certified Consultant)
+* Clio - ★★★★☆ _(Certified Consultant)_
+* MyCase - ★★★☆☆ _(Certified Consultant)_
+* PracticePanther - ★★★★★ _(Certified Consultant)_
 
 ## Workflow & Collaboration Tools
 
