@@ -20,6 +20,7 @@ author_profile: true
 * 2025 – present: Founding Member, Advisory Board, [Western Region Reentry Summit](https://www.reentrysummitwest.com/)
 
 ### Past
+
 * 2025 – 2026: Founding Member, Advisory Board, Second Look Sentencing Coalition South Carolina
 * 2022 – 2023: Founding Chair, Legal Services Committee, Umbrella of Hope Miami Reentry Coalition
 * 2022 – 2023: Founding Vice-Chair, Continuum-of-Care Committee, Umbrella of Hope Miami Reentry Coalition
@@ -30,6 +31,7 @@ author_profile: true
 ## Professional Affiliations & Memberships
 
 ### Criminal Justice & Criminology (Academic)
+
 * [Academic Consortium on Criminal Justice Health](https://www.accjh.org/) (2024 – present)
 * [Academy of Criminal Justice Sciences](https://www.acjs.org/) (2023 – present)
   * [Corrections Section](https://www.acjs.org/corrections/)
@@ -46,31 +48,35 @@ author_profile: true
 * [Southern Criminal Justice Association](https://www.southerncj.org/) (2023 – present)
 
 ### Criminal Justice & Criminology (Practitioner)
+
 * [American Probation and Parole Association](https://www.appa-net.org/) (2024 – present)
 * [International Corrections and Prisons Association](https://www.icpa.org/) (2024 – present)
 
 ### Law
+
 * [American Bar Association](https://www.americanbar.org/) (2024 – present)
-  * Civil Rights and Social Justice Division
-  * Criminal Justice Division
-  * Corrections Committee
-  * Diversion & Restorative Justice Committee
-  * Fair & Impartial Courts Committee _(Vice-Chair)_
-  * Legislative & Policy Committee
-  * Mental Health Committee
-  * Parole, Probation, & Reentry Committee
+  * [Civil Rights and Social Justice Section](https://www.americanbar.org/groups/crsj/)
+    * [Criminal Justice Committee](https://www.americanbar.org/groups/crsj/about/committees/criminal-justice/)
+    * [Fair & Impartial Courts Committee](https://www.americanbar.org/groups/crsj/about/committees/fair-impartial-courts/) _(Vice-Chair)_
+  * [Criminal Justice Section](https://www.americanbar.org/groups/criminal_justice/)
+    * [Corrections Committee](https://www.americanbar.org/groups/criminal_justice/about/committees/corrections/)
+    * [Diversion & Restorative Justice Committee](https://www.americanbar.org/groups/criminal_justice/about/committees/diversion-restorative-justice/)
+    * [Legislative & Policy Committee](https://www.americanbar.org/groups/criminal_justice/about/committees/legislative-policy/)
+    * [Mental Health Committee](https://www.americanbar.org/groups/criminal_justice/about/committees/mental-health/)
+    * [Parole, Probation, & Reentry Committee](https://www.americanbar.org/groups/criminal_justice/about/committees/parole-probation-reentry/)
 * [National Legal Aid and Defenders Association](https://www.nlada.org/) (2020 – present)
 
 
 ### Political Science
+
 * [American Political Science Association](https://apsanet.org/) (2026 – present)
-  * American Political Economy Section
-  * American Political Thought Section
-  * Elections, Public Opinion & Voting Behavior Section
-  * Experimental Research Section
-  * Formal Theory Section
-  * Foundations of Political Theory Section
-  * Law & Courts Section
-  * Political Economy Section
-  * Political Organizations & Parties Section
-  * Representation & Electoral Systems Section
+  * [American Political Economy Section](https://apsanet.org/MEMBERSHIP/Organized-Sections/Section54)
+  * [American Political Thought Section](https://apsanet.org/section47)
+  * [Elections, Public Opinion & Voting Behavior Section](https://apsanet.org/section32)
+  * [Experimental Research Section](https://apsanet.org/section42)
+  * [Formal Theory Section](https://apsanet.org/section52)
+  * [Foundations of Political Theory Section](https://apsanet.org/section17)
+  * [Law & Courts Section](https://apsanet.org/section2)
+  * [Political Economy Section](https://apsanet.org/section25)
+  * [Political Organizations & Parties Section](https://apsanet.org/section5)
+  * [Representation & Electoral Systems Section](https://apsanet.org/section8)
