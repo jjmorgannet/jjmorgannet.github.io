@@ -3,4 +3,18 @@
 <!-- Support for MathJax -->
 <script id="MathJax-script" defer src="https://cdn.jsdelivr.net/npm/mathjax@4.0.0/tex-mml-chtml.js"></script>
 
+
+<!-- Open Links in New Tab -->
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  var links = document.querySelectorAll('a[href^="http"]');
+  links.forEach(function(link) {
+    if (link.hostname !== window.location.hostname) {
+      link.setAttribute('target', '_blank');
+      link.setAttribute('rel', 'noopener noreferrer');
+    }
+  });
+});
+</script>
+
 <!-- end custom footer snippets -->
