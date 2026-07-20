@@ -22,7 +22,7 @@ redirect_from:
 
 ## Non-Academic Experience
 
-* 2025 – present: Chief Operating Officer and Founder, JustDatalytics, Cincinnati, OH
+2025 – present: Chief Operating Officer and Founder, JustDatalytics, Cincinnati, OH
   * Direct daily operations and strategic initiatives to implement evidence-based programs; oversee research projects across all stages of the criminal justice system, ensuring rigorous methodological standards and statistical analysis
   * Serve as fractional C-suite executive, including Chief Compliance Officer for a justice reform nonprofit, and organizer of the inaugural Western Region Reentry Summit
   * Organized and led a working group of over 100 academics in opposition to provisions of Ohio House Bill 338
