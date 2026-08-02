@@ -26,8 +26,9 @@ author_profile: true
 * Apricot — ★★☆☆
 * Fluxx — ★★☆☆
 * Quickbooks - ★★☆☆
-* Salesforce — ★★☆☆ _(Rank: Ranger)_
-<img src="https://res.cloudinary.com/trailhead/image/upload/public-trailhead/assets/images/ranks/ranger.png" alt="Rank: Ranger" width="75">
+* Salesforce (Admin) — ★☆☆☆ _(Rank: Ranger)_
+* Salesforce (User) — ★★★☆ _(Rank: Ranger)_
+<img src="https://res.cloudinary.com/trailhead/image/upload/public-trailhead/assets/images/ranks/ranger.png" alt="Rank: Ranger" width="75" align="center">
 * Submittable — ★★☆☆
 
 ## Law Office Management
