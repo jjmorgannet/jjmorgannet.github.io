@@ -26,7 +26,7 @@ author_profile: true
 * Apricot — ★★☆☆
 * Fluxx — ★★☆☆
 * Quickbooks - ★★☆☆
-* Salesforce — ★★☆☆
+* Salesforce — ★★☆☆ _(Rank: Ranger)_
 <img src="https://res.cloudinary.com/trailhead/image/upload/public-trailhead/assets/images/ranks/ranger.png" alt="Rank: Ranger" width="75">
 * Submittable — ★★☆☆
 
