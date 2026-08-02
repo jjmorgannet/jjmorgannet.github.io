@@ -17,6 +17,7 @@ author_profile: true
 
 ## Databases & Analysis
 
+* FileMaker Pro — ★★☆☆
 * Microsoft SQL Server — ★★☆☆
 * Python — ★★☆☆
 * Stata — ★★★☆
@@ -32,9 +33,9 @@ author_profile: true
 
 ## Law Office Management
 
-* Clio - ★★★☆ _(Certified Consultant)_
-* MyCase - ★★★☆ _(Certified Consultant)_
-* PracticePanther - ★★★★ _(Certified Consultant)_
+* Clio - ★★★☆ _(Certified Expert)_
+* MyCase - ★★★☆
+* PracticePanther - ★★★★ _(Certified Expert)_
 
 ## Workflow & Collaboration Tools
 
