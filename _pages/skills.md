@@ -19,6 +19,7 @@ author_profile: true
 
 * FileMaker Pro — ★★☆☆
 * Microsoft SQL Server — ★★☆☆
+* Orange — ★★☆☆
 * Python — ★★☆☆
 * Stata — ★★★☆
 
