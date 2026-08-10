@@ -69,6 +69,8 @@ author_profile: true
 
 ### Political Science
 
+* [American Association for Public Opinion Research](https://www.aapor.org/) (2026 - present)
+
 * [American Political Science Association](https://apsanet.org/) (2026 – present)
   * [American Political Economy Section](https://apsanet.org/MEMBERSHIP/Organized-Sections/Section54)
   * [American Political Thought Section](https://apsanet.org/section47)
