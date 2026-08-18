@@ -9,7 +9,7 @@ author_profile: true
 
 ## Professional Presentations
 
-* **Morgan, J. J.** (2026, October). Not that different: Examining liberal and conservative criminal justice reform movements. Training to be presented at the [Western Region Reentry Summit](https://www.reentrysummitwest.com/), Reno, NV.
+* **Morgan, J. J.** (2026, October). Not that different: The right and left on justice reform. Training to be presented at the [Western Region Reentry Summit](https://www.reentrysummitwest.com/), Reno, NV.
 * **Morgan, J. J.** (Chair), [Fields, L.](https://www.linkedin.com/in/louis-fields-29322a21b/), & [Mendis, L.](https://www.linkedin.com/in/lana-mendis-mba/) (2026, September). Don't call me a felon: Rewriting the language of crime coverage. Training to be presented at the [Society of Professional Journalists](https://www.spj.org/) Annual Meeting, Columbus, OH.
 * **Morgan, J. J.** (2026, April). Enemy of the state: Breaking through the barrier of systemic distrust. Plenary talk presented at the [Ohio Justice & Policy Center](https://ohiojpc.org/) Justice Symposium, Columbus, OH.
 * **Morgan, J. J.** & [Hickman, D.](https://www.linkedin.com/in/devon-h-40634824/) (2026, April). Moving beyond referrals: Best practices for building multidisciplinary teams for reentry. Training presented at the [National Conference on Higher Education in Prison](https://www.higheredinprison.org/nchep), Cleveland, OH.
