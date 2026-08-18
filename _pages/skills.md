@@ -21,6 +21,7 @@ author_profile: true
 * Microsoft SQL Server — ★★☆☆
 * Orange — ★★☆☆
 * Python — ★★☆☆
+* REDCap — ★★★☆
 * Stata — ★★★☆
 
 ## Financial, Grant, & CRM
