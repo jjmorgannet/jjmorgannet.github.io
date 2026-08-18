@@ -26,5 +26,6 @@ Undergraduate Courses
 
 ## Student Mentorship
 
+* Divine, M. (Fall 2026). Advisor, Undergraduate Research Practicum, [University of Cincinnati](https://www.uc.edu)
 * [Lester, S.](https://www.linkedin.com/in/shaylin-lester-759631388/) (Spring 2026). Advisor, Undergraduate Research Practicum, [University of Cincinnati](https://www.uc.edu)
 * [Castillo, M.](https://www.linkedin.com/in/malaya-castillo/) (Summer 2025). Advisor, Undergraduate Research Practicum, [University of Cincinnati](https://www.uc.edu)
