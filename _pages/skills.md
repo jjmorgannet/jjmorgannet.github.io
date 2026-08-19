@@ -55,4 +55,5 @@ author_profile: true
 * Hootsuite — ★★★☆
 * Jotform - ★★★☆
 * Microsoft Office/365 — ★★★★
+* Simple Syllabus - ★★☆☆
 * WordPress — ★★★☆
