@@ -38,7 +38,7 @@ author_profile: true
 
 * Clio - ★★★☆ _(Certified Expert)_
 * MyCase - ★★★☆
-* PracticePanther - ★★★★ _(Certified Partner)_ <img src="[https://res.cloudinary.com/trailhead/image/upload/public-trailhead/assets/images/ranks/ranger.png" alt="PracticePanther Certified Partner" width="75">
+* PracticePanther - ★★★★ _(Certified Partner)_ <img src="https://www.justdatalytics.org/wp-content/uploads/2026/08/PracticePanther_Certified_Partner_Badge.png" alt="PracticePanther Certified Partner" width="75">
 
 ## Workflow & Collaboration Tools
 
