@@ -21,6 +21,7 @@ author_profile: true
 * Microsoft SQL Server — ★★☆☆
 * Orange — ★★☆☆
 * Python — ★★☆☆
+* R - ★☆☆☆
 * REDCap — ★★★☆
 * Stata — ★★★☆
 
@@ -37,7 +38,7 @@ author_profile: true
 
 * Clio - ★★★☆ _(Certified Expert)_
 * MyCase - ★★★☆
-* PracticePanther - ★★★★ _(Certified Expert)_
+* PracticePanther - ★★★★ _(Certified Partner)_ <img src="[https://res.cloudinary.com/trailhead/image/upload/public-trailhead/assets/images/ranks/ranger.png" alt="PracticePanther Certified Partner" width="75">
 
 ## Workflow & Collaboration Tools
 
