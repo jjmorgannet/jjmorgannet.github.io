@@ -30,7 +30,7 @@ author_profile: true
 * Apricot — ★★☆☆
 * Fluxx — ★★☆☆
 * Quickbooks - ★★☆☆
-* Salesforce (Admin) — ★★☆☆ _(Rank: Ranger)_ <img src="https://res.cloudinary.com/trailhead/image/upload/public-trailhead/assets/images/ranks/ranger.png" alt="Rank: Ranger" width="75">
+* Salesforce (Admin) — ★★☆☆ _(Rank: Ranger)_ <img src="https://res.cloudinary.com/trailhead/image/upload/public-trailhead/assets/images/ranks/ranger.png" alt="Rank: Ranger" height="75">
 * Salesforce (User) — ★★★☆ _(Rank: Ranger)_
 * Submittable — ★★☆☆
 
@@ -38,7 +38,7 @@ author_profile: true
 
 * Clio - ★★★☆ _(Certified Expert)_
 * MyCase - ★★★☆
-* PracticePanther - ★★★★ _(Certified Partner)_ <img src="https://www.justdatalytics.org/wp-content/uploads/2026/08/PracticePanther_Certified_Partner_Badge.png" alt="PracticePanther Certified Partner" width="75">
+* PracticePanther - ★★★★ _(Certified Partner)_ <img src="https://www.justdatalytics.org/wp-content/uploads/2026/08/PracticePanther_Certified_Partner_Badge.png" alt="PracticePanther Certified Partner" height="75">
 
 ## Workflow & Collaboration Tools
 
