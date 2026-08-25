@@ -29,3 +29,16 @@
     "layout/sidebar",
     "layout/json_cv"
 ;
+
+// Underline links in light gray, keep text color as-is
+.page__content a,
+.archive a {
+  text-decoration: underline;
+  text-decoration-color: #cccccc;
+}
+
+.page__content a:hover,
+.archive a:hover {
+  text-decoration: underline;
+  text-decoration-color: #cccccc;
+}
