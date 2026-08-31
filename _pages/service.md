@@ -11,6 +11,7 @@ author_profile: true
 
 ### Current
 
+* 2026 - present: Co-Chair, [Criminal Justice Committee](https://www.americanbar.org/groups/crsj/about/committees/criminal-justice/), [American Bar Association](https://www.americanbar.org/)
 * 2026 – present: Voting Member, Institutional Review Board, [University of Cincinnati](https://www.uc.edu)
 * 2026 – present: Voting Member, Institutional Review Board, [MDRC](https://www.mdrc.org/)
 * 2026 – present: Voting Member, Institutional Review Board, [North Star Review Board](https://www.learningirb.org)
