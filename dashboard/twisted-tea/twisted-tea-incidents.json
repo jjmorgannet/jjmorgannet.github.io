@@ -1,0 +1,73 @@
+{
+  "last_updated": "2026-09-18",
+  "confirmed": [
+    {
+      "case_id": "TTA-2020-001",
+      "date": "2020-12-24",
+      "location": "Circle K, Elyria, OH",
+      "state": "OH",
+      "weapon_form": "24 oz can, swung at head",
+      "target": "Unidentified man who directed racial slurs at the buyer",
+      "charges_filed": false,
+      "outcome": "No charges filed. Video exceeded 5 million views and became the source meme ('Tea-KO').",
+      "status": "confirmed",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Twisted_Tea",
+        "https://fingers.email/p/the-tea-ko-memed-round-the-world",
+        "https://vinepair.com/articles/ntk-twisted-tea-guide/"
+      ]
+    },
+    {
+      "case_id": "TTA-2020-002",
+      "date": "2020-01-18",
+      "location": "Merrimack, NH",
+      "state": "NH",
+      "weapon_form": "24 oz can, struck face",
+      "target": "Adult victim, domestic incident",
+      "charges_filed": true,
+      "outcome": "Charged with simple assault and domestic violence. Facial bruising reported.",
+      "status": "confirmed",
+      "sources": [
+        "https://whdh.com/news/police-nh-woman-facing-assault-charge-after-hitting-person-in-face-with-large-can-of-twisted-tea/"
+      ]
+    },
+    {
+      "case_id": "TTA-2021-003",
+      "date": "2021-01-19",
+      "location": "Peachland Promenade, Port Charlotte, Charlotte County, FL",
+      "state": "FL",
+      "weapon_form": "Can brandished; steel pipe also carried",
+      "target": "Former employer",
+      "charges_filed": true,
+      "outcome": "Charged with aggravated assault with a deadly weapon, without intent to kill. Reporting does not specify which item was the charged weapon.",
+      "status": "provisional",
+      "sources": [
+        "https://www.gulfcoastnewsnow.com/article/florida-man-threatens-to-kill-former-employer-with-twisted-tea-metal-pipe/46729993",
+        "https://www.aol.com/news/florida-man-arrested-threatening-ex-003844145.html"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "date": "2023-07-22",
+      "location": "Bakersfield, CA",
+      "what_happened": "Two suspects stole Twisted Tea from a convenience store and punched the manager when confronted; convicted of robbery.",
+      "why_excluded": "The can was the stolen property, not the weapon. The manager was struck with a fist.",
+      "sources": ["https://www.kget.com/news/crime-watch/altercation-over-stolen-twisted-tea-results-in-felony-convictions/amp/"]
+    },
+    {
+      "date": "unknown",
+      "location": "Logan, Philadelphia, PA",
+      "what_happened": "A man threw a cup of hot tea in a restaurant employee's face during a dispute, causing burns.",
+      "why_excluded": "Brand not identified as Twisted Tea, and the liquid was thrown rather than the can used as an implement.",
+      "sources": ["https://6abc.com/4681082/"]
+    },
+    {
+      "date": "unknown",
+      "location": "Feasterville, PA",
+      "what_happened": "Two women stole a shopping cart full of Twisted Tea from a grocery store.",
+      "why_excluded": "No assault occurred. Theft only.",
+      "sources": ["https://www.cbsnews.com/philadelphia/news/tea-time-police-searching-for-2-women-accused-of-stealing-shopping-cart-full-of-twisted-tea/"]
+    }
+  ]
+}
