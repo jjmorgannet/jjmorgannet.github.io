@@ -27,7 +27,7 @@ author_profile: false
 .tta-dash, .tta-dash *{box-sizing:border-box;}
 .tta-dash{
     margin:0;
-    background:var(--paper);
+    background:#F6F7F6;
     color:var(--ink);
     font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
     line-height:1.55;
@@ -63,10 +63,21 @@ author_profile: false
     margin-top:26px;
     display:flex;
     flex-wrap:wrap;
-    gap:8px 22px;
+    gap:10px;
     font-family:"IBM Plex Mono",monospace;
     font-size:0.82rem;
+  }
+.tta-dash .meta-row span{
+    background:var(--paper);
     color:var(--ink-soft);
+    padding:7px 16px;
+    border-radius:999px;
+    border:1px solid var(--line);
+  }
+.tta-dash .meta-row span.meta-highlight{
+    background:#FEF6CC;
+    color:var(--amber-deep);
+    border-color:#F5E9A8;
   }
 .tta-dash section{padding:40px 0;border-bottom:1px solid var(--line);}
 .tta-dash section:last-of-type{border-bottom:none;}
@@ -78,13 +89,14 @@ author_profile: false
 .tta-dash .stats{
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
-    gap:1px;
-    background:var(--ink);
-    border:1px solid var(--ink);
+    gap:16px;
   }
 .tta-dash .stat{
     background:var(--paper);
-    padding:20px 18px;
+    padding:22px 20px;
+    border:1px solid var(--line);
+    border-radius:14px;
+    box-shadow:0 1px 3px rgba(38,25,13,0.06);
   }
 .tta-dash .stat .n{
     font-family:"Lora",Georgia,serif;
@@ -106,7 +118,25 @@ author_profile: false
 .tta-dash .bar-fill.provisional{background:repeating-linear-gradient(45deg,var(--amber),var(--amber) 6px,var(--amber-deep) 6px,var(--amber-deep) 12px);}
 .tta-dash .bar-count{width:34px;flex:none;font-family:"IBM Plex Mono",monospace;font-size:0.85rem;text-align:right;}
 .tta-dash .chart-note{font-size:0.85rem;color:var(--ink-soft);margin-top:10px;}
-.tta-dash .fig{display:block !important;margin:0 0 34px;}
+.tta-dash .fig{
+    display:block !important;
+    margin:0 0 20px;
+    background:var(--paper);
+    border:1px solid var(--line);
+    border-radius:14px;
+    padding:24px;
+    box-shadow:0 1px 3px rgba(38,25,13,0.06);
+  }
+.tta-dash .fig-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+    margin-bottom:20px;
+  }
+.tta-dash .fig-row .fig{
+    flex:1 1 280px;
+    margin-bottom:0;
+  }
 .tta-dash .fig:last-child{margin-bottom:0;}
 .tta-dash .fig-caption{font-size:0.85rem;color:var(--ink-soft);margin-top:10px;max-width:64ch;}
 .tta-dash .map-wrap{max-width:680px;margin:0 auto;}
@@ -132,7 +162,7 @@ author_profile: false
 .tta-dash .dot-context{background:var(--gray-dark);border:1px dashed var(--paper);}
 .tta-dash .dot-none{background:var(--paper-dark);border:1px solid var(--line);}
 .tta-dash .chart-tooltip{
-    position:absolute;
+    position:fixed;
     z-index:60;
     pointer-events:none;
     opacity:0;
@@ -143,6 +173,7 @@ author_profile: false
     line-height:1.4;
     padding:8px 11px;
     max-width:230px;
+    border-radius:6px;
     transition:opacity 0.08s;
   }
 .tta-dash [data-info]{cursor:pointer;}
@@ -198,7 +229,7 @@ aside.sidebar,
     font-size:0.78rem;
     width:150px;
   }
-.tta-dash .case-block{margin-bottom:26px;border:1px solid var(--ink);}
+.tta-dash .case-block{margin-bottom:20px;border:1px solid var(--line);border-radius:14px;overflow:hidden;background:var(--paper);box-shadow:0 1px 3px rgba(38,25,13,0.06);}
 .tta-dash .case-block:last-child{margin-bottom:0;}
 .tta-dash .case-block table{border:none;}
 .tta-dash .case-block th, .tta-dash .case-block td{border:none;border-bottom:1px solid var(--line);}
@@ -209,15 +240,17 @@ aside.sidebar,
     padding:6px 12px;
     font-size:0.85rem;
     display:inline-block;
+    border-radius:999px;
   }
 .tta-dash .status-pill{
     font-family:"IBM Plex Mono",monospace;
     font-size:0.72rem;
-    padding:2px 8px;
-    border:1px solid var(--ink);
+    padding:3px 10px;
+    border:1px solid var(--line);
     margin-left:8px;
+    border-radius:999px;
   }
-.tta-dash .status-pill.provisional{background:var(--paper-dark);}
+.tta-dash .status-pill.provisional{background:#FEF6CC;color:var(--amber-deep);border-color:#F5E9A8;}
 .tta-dash .excluded-table th{width:110px;}
 .tta-dash .why{color:var(--brick);}
 .tta-dash .methodology dt{
@@ -229,9 +262,12 @@ aside.sidebar,
   }
 .tta-dash .methodology dd{margin:6px 0 0;max-width:68ch;}
 .tta-dash .origin{
-    background:var(--paper-dark);
+    background:var(--paper);
+    border:1px solid var(--line);
     border-left:4px solid var(--amber);
-    padding:18px 22px;
+    border-radius:14px;
+    padding:20px 24px;
+    box-shadow:0 1px 3px rgba(38,25,13,0.06);
   }
 .tta-dash .origin p{margin:0 0 10px;}
 .tta-dash .origin p:last-child{margin-bottom:0;}
@@ -240,10 +276,11 @@ aside.sidebar,
     font-family:"IBM Plex Mono",monospace;
     font-size:0.85rem;
     border:1px solid var(--ink);
-    padding:9px 16px;
+    padding:9px 18px;
     text-decoration:none;
     color:var(--ink);
     background:var(--paper);
+    border-radius:999px;
   }
 .tta-dash .dl-btn:hover{background:var(--ink);color:var(--paper);}
 .tta-dash footer{
@@ -266,7 +303,7 @@ aside.sidebar,
       improvised weapon, tracked since the format was invented at a Circle K in Elyria, Ohio, on Christmas Eve 2020.</p>
     <div class="meta-row">
       <span>Last updated 2026-09-18</span>
-      <span>n = 2 confirmed, 1 provisional</span>
+      <span class="meta-highlight">n = 2 confirmed, 1 provisional</span>
       <span>Coverage: national</span>
       <span>Peer reviewed: no</span>
     </div>
@@ -305,38 +342,40 @@ aside.sidebar,
         report nothing at all, which given the sample size is not much of a finding.</em></figcaption>
     </figure>
 
-    <figure class="fig">
-      <div class="vbarchart">
-        <div class="vbar-col" tabindex="0" data-info="<strong>2020</strong><br>2 confirmed incidents<br>TTA-2020-001 &middot; Elyria, OH<br>TTA-2020-002 &middot; Merrimack, NH"><span class="vbar-val">2</span><div class="vbar" style="height:130px"></div><span class="vbar-year">2020</span></div>
-        <div class="vbar-col" tabindex="0" data-info="<strong>2021</strong><br>1 provisional incident<br>TTA-2021-003 &middot; Port Charlotte, FL (weapon disputed)"><span class="vbar-val">1</span><div class="vbar provisional" style="height:65px"></div><span class="vbar-year">2021</span></div>
-        <div class="vbar-col" tabindex="0" data-info="<strong>2022</strong><br>No incidents recorded"><span class="vbar-val">0</span><div class="vbar zero" style="height:4px"></div><span class="vbar-year">2022</span></div>
-        <div class="vbar-col" tabindex="0" data-info="<strong>2023</strong><br>No incidents recorded"><span class="vbar-val">0</span><div class="vbar zero" style="height:4px"></div><span class="vbar-year">2023</span></div>
-        <div class="vbar-col" tabindex="0" data-info="<strong>2024</strong><br>No incidents recorded"><span class="vbar-val">0</span><div class="vbar zero" style="height:4px"></div><span class="vbar-year">2024</span></div>
-        <div class="vbar-col" tabindex="0" data-info="<strong>2025</strong><br>No incidents recorded"><span class="vbar-val">0</span><div class="vbar zero" style="height:4px"></div><span class="vbar-year">2025</span></div>
-        <div class="vbar-col" tabindex="0" data-info="<strong>2026</strong><br>No incidents recorded (yet)"><span class="vbar-val">0</span><div class="vbar zero" style="height:4px"></div><span class="vbar-year">2026</span></div>
-      </div>
-      <figcaption class="fig-caption"><em>Figure 2. Incidents by year &mdash; hover or tap a column. The registry
-        opens with two cases 13 months apart in December 2020 and January 2021, then five years of nothing.
-        Whether that is a resolved problem or an uncovered one is not a question a registry with n = 3 can
-        answer.</em></figcaption>
-    </figure>
-    <figure class="fig">
-      <div class="barchart">
-        <div class="bar-row" tabindex="0" data-info="<strong>Charged</strong><br>TTA-2020-002 &middot; Merrimack, NH (simple assault, domestic violence)<br>TTA-2021-003 &middot; Port Charlotte, FL (aggravated assault, provisional)">
-          <span class="bar-label">Charged</span>
-          <div class="bar-track"><div class="bar-fill" style="width:100%"></div></div>
-          <span class="bar-count">2</span>
+    <div class="fig-row">
+      <figure class="fig">
+        <div class="vbarchart">
+          <div class="vbar-col" tabindex="0" data-info="<strong>2020</strong><br>2 confirmed incidents<br>TTA-2020-001 &middot; Elyria, OH<br>TTA-2020-002 &middot; Merrimack, NH"><span class="vbar-val">2</span><div class="vbar" style="height:130px"></div><span class="vbar-year">2020</span></div>
+          <div class="vbar-col" tabindex="0" data-info="<strong>2021</strong><br>1 provisional incident<br>TTA-2021-003 &middot; Port Charlotte, FL (weapon disputed)"><span class="vbar-val">1</span><div class="vbar provisional" style="height:65px"></div><span class="vbar-year">2021</span></div>
+          <div class="vbar-col" tabindex="0" data-info="<strong>2022</strong><br>No incidents recorded"><span class="vbar-val">0</span><div class="vbar zero" style="height:4px"></div><span class="vbar-year">2022</span></div>
+          <div class="vbar-col" tabindex="0" data-info="<strong>2023</strong><br>No incidents recorded"><span class="vbar-val">0</span><div class="vbar zero" style="height:4px"></div><span class="vbar-year">2023</span></div>
+          <div class="vbar-col" tabindex="0" data-info="<strong>2024</strong><br>No incidents recorded"><span class="vbar-val">0</span><div class="vbar zero" style="height:4px"></div><span class="vbar-year">2024</span></div>
+          <div class="vbar-col" tabindex="0" data-info="<strong>2025</strong><br>No incidents recorded"><span class="vbar-val">0</span><div class="vbar zero" style="height:4px"></div><span class="vbar-year">2025</span></div>
+          <div class="vbar-col" tabindex="0" data-info="<strong>2026</strong><br>No incidents recorded (yet)"><span class="vbar-val">0</span><div class="vbar zero" style="height:4px"></div><span class="vbar-year">2026</span></div>
         </div>
-        <div class="bar-row" tabindex="0" data-info="<strong>No charges filed</strong><br>TTA-2020-001 &middot; Elyria, OH &mdash; no charges, but 5M+ YouTube views instead">
-          <span class="bar-label">No charges</span>
-          <div class="bar-track"><div class="bar-fill" style="width:50%"></div></div>
-          <span class="bar-count">1</span>
+        <figcaption class="fig-caption"><em>Figure 2. Incidents by year &mdash; hover or tap a column. The registry
+          opens with two cases 13 months apart in December 2020 and January 2021, then five years of nothing.
+          Whether that is a resolved problem or an uncovered one is not a question a registry with n = 3 can
+          answer.</em></figcaption>
+      </figure>
+      <figure class="fig">
+        <div class="barchart">
+          <div class="bar-row" tabindex="0" data-info="<strong>Charged</strong><br>TTA-2020-002 &middot; Merrimack, NH (simple assault, domestic violence)<br>TTA-2021-003 &middot; Port Charlotte, FL (aggravated assault, provisional)">
+            <span class="bar-label">Charged</span>
+            <div class="bar-track"><div class="bar-fill" style="width:100%"></div></div>
+            <span class="bar-count">2</span>
+          </div>
+          <div class="bar-row" tabindex="0" data-info="<strong>No charges filed</strong><br>TTA-2020-001 &middot; Elyria, OH &mdash; no charges, but 5M+ YouTube views instead">
+            <span class="bar-label">No charges</span>
+            <div class="bar-track"><div class="bar-fill" style="width:50%"></div></div>
+            <span class="bar-count">1</span>
+          </div>
         </div>
-      </div>
-      <figcaption class="fig-caption"><em>Figure 3. Charges filed, where reported &mdash; hover or tap a bar. The
-        one case that went uncharged is also the one with 5 million YouTube views, which is its own small
-        commentary on what gets prosecuted versus what gets memed.</em></figcaption>
-    </figure>
+        <figcaption class="fig-caption"><em>Figure 3. Charges filed, where reported &mdash; hover or tap a bar. The
+          one case that went uncharged is also the one with 5 million YouTube views, which is its own small
+          commentary on what gets prosecuted versus what gets memed.</em></figcaption>
+      </figure>
+    </div>
   </section>
 
   <section id="incidents">
@@ -515,16 +554,16 @@ aside.sidebar,
 
   // Bar charts (years + charges): plain HTML elements, works via mouse and keyboard focus.
   document.querySelectorAll('[data-info]').forEach(function(el){
-    el.addEventListener('mousemove', function(e){ showTooltip(el.dataset.info, e.pageX, e.pageY); });
+    el.addEventListener('mousemove', function(e){ showTooltip(el.dataset.info, e.clientX, e.clientY); });
     el.addEventListener('mouseleave', hideTooltip);
     el.addEventListener('focus', function(){
       var r = el.getBoundingClientRect();
-      showTooltip(el.dataset.info, r.left + window.scrollX, r.bottom + window.scrollY);
+      showTooltip(el.dataset.info, r.left, r.bottom);
     });
     el.addEventListener('blur', hideTooltip);
     el.addEventListener('touchstart', function(e){
       var t = e.touches[0];
-      showTooltip(el.dataset.info, t.pageX, t.pageY);
+      showTooltip(el.dataset.info, t.clientX, t.clientY);
     });
   });
 
@@ -557,14 +596,14 @@ aside.sidebar,
       .on('mousemove', function(event, d){
         var info = caseData[d.properties.name];
         var html = info ? info.html : '<strong>' + d.properties.name + '</strong><br>No documented incidents';
-        showTooltip(html, event.pageX, event.pageY);
+        showTooltip(html, event.clientX, event.clientY);
       })
       .on('mouseleave', hideTooltip)
       .on('focus', function(event, d){
         var info = caseData[d.properties.name];
         var html = info ? info.html : '<strong>' + d.properties.name + '</strong><br>No documented incidents';
         var r = this.getBoundingClientRect();
-        showTooltip(html, r.left + window.scrollX, r.top + window.scrollY);
+        showTooltip(html, r.left, r.top);
       })
       .on('blur', hideTooltip);
   } catch (e){
