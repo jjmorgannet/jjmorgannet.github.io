@@ -14,9 +14,25 @@
             {% else %}
               {% assign domain = base_path %}
             {% endif %}
-            <li class="masthead__menu-item {% if page.url contains link.url and link.url != '/' %}selected{% endif %}">
-              <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
-            </li>
+            {% if link.children %}
+              <li class="masthead__menu-item dropdown {% if page.url contains link.url and link.url != '/' %}selected{% endif %}">
+                <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
+                <ul class="dropdown-menu">
+                  {% for child in link.children %}
+                    {% if child.url contains 'http' %}
+                      {% assign childDomain = '' %}
+                    {% else %}
+                      {% assign childDomain = base_path %}
+                    {% endif %}
+                    <li><a href="{{ childDomain }}{{ child.url }}">{{ child.title }}</a></li>
+                  {% endfor %}
+                </ul>
+              </li>
+            {% else %}
+              <li class="masthead__menu-item {% if page.url contains link.url and link.url != '/' %}selected{% endif %}">
+                <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
+              </li>
+            {% endif %}
           {% endfor %}
           <li id="theme-toggle" class="masthead__menu-item persist tail">
             <a role="button" aria-labelledby="theme-icon"><i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true" title="toggle theme"></i></a>
@@ -27,3 +43,29 @@
     </div>
   </div>
 </div>
+
+<style>
+  .masthead__menu-item.dropdown { position: relative; }
+  .masthead__menu-item.dropdown > .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 190px;
+    margin: 0;
+    padding: 6px 0;
+    list-style: none;
+    background: var(--background-color, #fff);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+    z-index: 100;
+  }
+  .masthead__menu-item.dropdown:hover > .dropdown-menu,
+  .masthead__menu-item.dropdown:focus-within > .dropdown-menu {
+    display: block;
+  }
+  .dropdown-menu li a {
+    display: block;
+    padding: 8px 16px;
+    white-space: nowrap;
+  }
+</style>
