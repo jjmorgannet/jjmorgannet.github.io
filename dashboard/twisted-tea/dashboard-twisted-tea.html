@@ -32,7 +32,6 @@ author_profile: false
     font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
     line-height:1.55;
   }
-html[data-theme="dark"] .tta-dash{ background:#1B140B; color:#EFE6D2; }
 .tta-dash a{color:var(--amber-deep);}
 .tta-dash .wrap{max-width:920px;margin:0 auto;padding:0 24px;}
 .tta-dash header.hero{
@@ -87,7 +86,6 @@ html[data-theme="dark"] .tta-dash{ background:#1B140B; color:#EFE6D2; }
     background:var(--paper);
     padding:20px 18px;
   }
-html[data-theme="dark"] .tta-dash .stat{background:#1B140B;}
 .tta-dash .stat .n{
     font-family:"Lora",Georgia,serif;
     font-weight:700;
@@ -104,7 +102,6 @@ html[data-theme="dark"] .tta-dash .stat{background:#1B140B;}
 .tta-dash .bar-row{display:flex;align-items:center;gap:14px;margin-bottom:12px;}
 .tta-dash .bar-label{width:120px;flex:none;font-family:"IBM Plex Mono",monospace;font-size:0.85rem;}
 .tta-dash .bar-track{flex:1;background:var(--paper-dark);height:22px;position:relative;border:1px solid var(--line);}
-html[data-theme="dark"] .tta-dash .bar-track{background:#2A2013;}
 .tta-dash .bar-fill{height:100%;background:var(--amber);}
 .tta-dash .bar-fill.provisional{background:repeating-linear-gradient(45deg,var(--amber),var(--amber) 6px,var(--amber-deep) 6px,var(--amber-deep) 12px);}
 .tta-dash .bar-count{width:34px;flex:none;font-family:"IBM Plex Mono",monospace;font-size:0.85rem;text-align:right;}
@@ -116,7 +113,6 @@ html[data-theme="dark"] .tta-dash .bar-track{background:#2A2013;}
 .tta-dash .us-map{width:100%;height:auto;display:block;}
 .tta-dash .map-loading{font-family:"IBM Plex Mono",monospace;font-size:14px;fill:var(--ink-soft);}
 .tta-dash .state{stroke:var(--ink);stroke-width:0.6;fill:var(--paper-dark);cursor:pointer;transition:opacity 0.1s;}
-html[data-theme="dark"] .tta-dash .state{fill:#2A2013;}
 .tta-dash .state:hover{opacity:0.75;stroke-width:1.4;}
 .tta-dash .state-confirmed{fill:var(--amber);}
 .tta-dash .state-provisional{fill:url(#hatch);}
@@ -152,6 +148,18 @@ html[data-theme="dark"] .tta-dash .state{fill:#2A2013;}
 .tta-dash [data-info]{cursor:pointer;}
 .tta-dash [data-info]:focus{outline:2px solid var(--amber-deep);outline-offset:3px;}
 .tta-dash .state:focus{outline:2px solid var(--amber-deep);}
+
+/* Force full width on this page and hide any leftover sidebar, since
+   author_profile:false / classes:wide alone didn't clear it. Scoped to
+   this page only (this <style> block is inline, not site-wide). */
+.sidebar,
+aside.sidebar,
+.author__avatar,
+.author__content { display: none !important; }
+#main .page,
+.page,
+.page__content,
+.archive { width: 100% !important; max-width: 100% !important; float: none !important; margin-left: 0 !important; margin-right: 0 !important; }
 .tta-dash .vbarchart{
     display:flex;
     align-items:flex-end;
@@ -190,7 +198,6 @@ html[data-theme="dark"] .tta-dash .state{fill:#2A2013;}
     font-size:0.78rem;
     width:150px;
   }
-html[data-theme="dark"] .tta-dash th{background:#2A2013;}
 .tta-dash .case-block{margin-bottom:26px;border:1px solid var(--ink);}
 .tta-dash .case-block:last-child{margin-bottom:0;}
 .tta-dash .case-block table{border:none;}
@@ -226,7 +233,6 @@ html[data-theme="dark"] .tta-dash th{background:#2A2013;}
     border-left:4px solid var(--amber);
     padding:18px 22px;
   }
-html[data-theme="dark"] .tta-dash .origin{background:#2A2013;}
 .tta-dash .origin p{margin:0 0 10px;}
 .tta-dash .origin p:last-child{margin-bottom:0;}
 .tta-dash .downloads{display:flex;gap:12px;flex-wrap:wrap;margin-top:6px;}
@@ -239,7 +245,6 @@ html[data-theme="dark"] .tta-dash .origin{background:#2A2013;}
     color:var(--ink);
     background:var(--paper);
   }
-html[data-theme="dark"] .tta-dash .dl-btn{background:#1B140B;color:#EFE6D2;border-color:#EFE6D2;}
 .tta-dash .dl-btn:hover{background:var(--ink);color:var(--paper);}
 .tta-dash footer{
     padding:32px 0 60px;
