@@ -600,7 +600,6 @@ aside.sidebar,
   }
   function hideTooltip(){ tooltip.style.opacity = 0; }
 
-  // Bar charts (years + charges): plain HTML elements, works via mouse and keyboard focus.
   document.querySelectorAll('[data-info]').forEach(function(el){
     el.addEventListener('mousemove', function(e){ showTooltip(el.dataset.info, e.clientX, e.clientY); });
     el.addEventListener('mouseleave', hideTooltip);
@@ -614,9 +613,5 @@ aside.sidebar,
       showTooltip(el.dataset.info, t.clientX, t.clientY);
     });
   });
-
-  // Map states, bar charts, year columns: all plain elements with a data-info
-  // attribute, handled uniformly above. The map is pre-rendered as static
-  // <path> elements (no D3/topojson/fetch needed at runtime).
 })();
 </script>
