@@ -664,7 +664,7 @@ aside.sidebar,
       '<em>Figure 3. Charges filed, where reported &mdash; hover or tap a bar.</em>';
   }
 
-  fetch('twisted-tea-incidents.json')
+  fetch('twisted-tea-incidents.json?v=' + Date.now(), { cache: 'no-store' })
     .then(function(r){ return r.json(); })
     .then(function(data){
       var stats = renderStats(data);
