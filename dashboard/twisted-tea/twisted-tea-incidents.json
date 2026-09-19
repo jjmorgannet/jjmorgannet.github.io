@@ -46,6 +46,20 @@
         "https://www.gulfcoastnewsnow.com/article/florida-man-threatens-to-kill-former-employer-with-twisted-tea-metal-pipe/46729993",
         "https://www.complex.com/life/a/alexwgalbraith/florida-man-arrested-threatening-employer-pipe-twisted-tea-can"
       ]
+    },
+ {
+      "case_id": "TTA-2026-001",
+      "date": "2026-01-22",
+      "location": "Carson City, NV",
+      "state": "NV",
+      "weapon_form": "Can thrown",
+      "target": "Adult victim, domestic incident",
+      "charges_filed": true,
+      "outcome": "Charged with domestic battery, burglary of a motor vehicle.",
+      "status": "confirmed",
+      "sources": [
+        "https://www.carsonnow.org/01/22/2026/carson-city-deputies-arrest-man-for-domestic-battery-second-burglary-of-motor-vehicle-after-throwing-twisted-tea-at-partner"
+      ]
     }
   ],
   "excluded": [
@@ -61,14 +75,21 @@
       "location": "El Milagro Market, Bakersfield, CA",
       "what_happened": "Two suspects stole Twisted Tea from a convenience store and punched the manager when confronted; convicted of robbery.",
       "why_excluded": "The can was the stolen property, not the weapon. The manager was struck with a fist.",
-      "sources": ["https://www.kget.com/news/crime-watch/altercation-over-stolen-twisted-tea-results-in-felony-convictions/amp/"]
+      "sources": ["https://www.kget.com/news/crime-watch/altercation-over-stolen-twisted-tea-results-in-felony-convictions/amp/"; "https://bakersfieldnow.com/newsletter-daily/kern-county-jury-convicts-duo-in-robbery-over-twisted-tea-theft-in-2023-kern-county-california"]
     },    
+    {
+      "date": "2024-12-24",
+      "location": "Hanover, PA",
+      "what_happened": "DNA retrieved from a Twisted Tea can left in a house solved a burglary.",
+      "why_excluded": "The Twisted Tea can was used to solve a crime, not commit one.",
+      "sources": ["https://www.eveningsun.com/story/news/crime/2026/03/23/dna-from-tea-can-was-pivotal-in-hanover-burglary-investigation-police/89227873007/"]
+    },
     {
       "date": "2025-08-30",
       "location": "Rigsby Food Market, San Antonio, TX",
       "what_happened": "Argument during a street race event over a Twisted Tea led to deadly shooting.",
       "why_excluded": "Twisted Tea was the reason for the argument, but a gun was used for the murder.",
-      "sources": ["https://www.8newsnow.com/crime/fatal-las-vegas-street-takeover-shooting-may-have-stemmed-from-argument-over-alcohol/"]
+      "sources": ["https://www.8newsnow.com/crime/fatal-las-vegas-street-takeover-shooting-may-have-stemmed-from-argument-over-alcohol/"; "https://www.kens5.com/article/news/local/crime-stoppers-aggravated-robbery-rigsby-food-mart-san-antonio/273-f9df9ff7-eae6-42e4-8b0b-5e3e267d4f61"]
     },
      {
       "date": "2025-11-08",
