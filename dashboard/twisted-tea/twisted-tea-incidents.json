@@ -66,6 +66,13 @@
     {
       "date": "2025-08-30",
       "location": "Rigsby Food Market, San Antonio, TX",
+      "what_happened": "Argument during a street race event over a Twisted Tea led to deadly shooting.",
+      "why_excluded": "Twisted Tea was the reason for the argument, but a gun was used for the murder.",
+      "sources": ["https://www.8newsnow.com/crime/fatal-las-vegas-street-takeover-shooting-may-have-stemmed-from-argument-over-alcohol/"]
+    },
+     {
+      "date": "2025-11-08",
+      "location": "Las Vegas, NV",
       "what_happened": "Two suspects stole Twisted Tea from a convenience store and hit an employee with their car while fleeing.",
       "why_excluded": "The can was the stolen property, not the weapon. The employee was struck with a car.",
       "sources": ["https://news4sanantonio.com/news/local/employee-hit-by-car-as-suspects-steal-twisted-tea-from-east-side-store-police-say-sapd-crime-stoppers-aggravated-robbery"]
