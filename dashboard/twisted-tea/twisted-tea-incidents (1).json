@@ -1,0 +1,139 @@
+{
+  "last_updated": "2026-09-18",
+  "views_on_origin_video": "5M+",
+  "confirmed": [
+    {
+      "case_id": "TTA-2020-001",
+      "date": "2020-12-24",
+      "date_display": "December 24, 2020",
+      "location": "Circle K, Elyria, Ohio",
+      "state": "OH",
+      "weapon_form": "24 oz can, swung at head",
+      "context": "An unmasked man at the checkout counter directed racial slurs and taunts at another customer, later identified as Barry Allen, and goaded him to fight.",
+      "sequence": "Allen, who appeared to want only to pay for his tallboy and leave, struck the man with the can and continued the altercation on the ground.",
+      "charges_filed": false,
+      "charge_description": "None filed, per local reporting",
+      "outcome": "Video exceeded 5 million views and became the source meme (\"Tea-KO\"). This is the registry's index case.",
+      "status": "confirmed",
+      "why_provisional": null,
+      "sources": [
+        { "label": "WKYC", "url": "https://www.wkyc.com/article/news/local/lorain-county/video-shows-man-being-hit-with-can-of-twisted-tea-after-spouting-racial-slurs-at-elyria-gas-station/95-70e633ac-15c7-46a9-85aa-0bd2d1af0c0c" },
+        { "label": "YouTube", "url": "https://www.youtube.com/watch?v=i3o_6dFPyy8" },
+        { "label": "Local 12", "url": "https://local12.com/news/nation-world/man-beaten-with-twisted-tea-can-after-shouting-racial-slurs-in-ohio-gas-station" }
+      ]
+    },
+    {
+      "case_id": "TTA-2020-002",
+      "date": "2020-01-17",
+      "date_display": "January 17, 2020",
+      "location": "Merrimack, New Hampshire",
+      "state": "NH",
+      "weapon_form": "24 oz can, struck to the face",
+      "context": "A domestic dispute; the victim reported the incident to an officer stationed nearby.",
+      "sequence": null,
+      "charges_filed": true,
+      "charge_description": "Simple assault and domestic violence",
+      "outcome": "Facial bruising reported.",
+      "status": "confirmed",
+      "why_provisional": null,
+      "sources": [
+        { "label": "WHDH", "url": "https://whdh.com/news/police-nh-woman-facing-assault-charge-after-hitting-person-in-face-with-large-can-of-twisted-tea/" },
+        { "label": "CBS Boston", "url": "https://www.cbsnews.com/boston/news/merrimack-new-hampshire-twisted-tea-attack-faith-haggerty/" }
+      ]
+    },
+    {
+      "case_id": "TTA-2021-001",
+      "date": "2021-01-19",
+      "date_display": "January 19, 2021",
+      "location": "Peachland Promenade, Port Charlotte, Charlotte County, Florida",
+      "state": "FL",
+      "weapon_form": "Can brandished; a steel pipe was also carried",
+      "context": "The suspect made threatening calls to a former boss before arriving at the scene.",
+      "sequence": null,
+      "charges_filed": true,
+      "charge_description": "Aggravated assault with a deadly weapon, without intent to kill",
+      "outcome": null,
+      "status": "provisional",
+      "why_provisional": "Reporting does not specify which item the charge treats as the deadly weapon. The pipe is the likelier candidate; the can rides along on reputation.",
+      "sources": [
+        { "label": "Gulf Coast News Now", "url": "https://www.gulfcoastnewsnow.com/article/florida-man-threatens-to-kill-former-employer-with-twisted-tea-metal-pipe/46729993" },
+        { "label": "Complex", "url": "https://www.complex.com/life/a/alexwgalbraith/florida-man-arrested-threatening-employer-pipe-twisted-tea-can" }
+      ]
+    },
+    {
+      "case_id": "TTA-2026-001",
+      "date": "2026-01-22",
+      "date_display": "January 22, 2026",
+      "location": "Carson City, Nevada",
+      "state": "NV",
+      "weapon_form": "Can thrown",
+      "context": "The can was thrown at the suspect's domestic partner during a dispute that also led to a vehicle-burglary charge.",
+      "sequence": null,
+      "charges_filed": true,
+      "charge_description": "Domestic battery, burglary of a motor vehicle",
+      "outcome": null,
+      "status": "confirmed",
+      "why_provisional": null,
+      "sources": [
+        { "label": "Carson Now", "url": "https://www.carsonnow.org/01/22/2026/carson-city-deputies-arrest-man-for-domestic-battery-second-burglary-of-motor-vehicle-after-throwing-twisted-tea-at-partner" }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "date_display": "March 1, 2019",
+      "location": "Acme, Feasterville, Pennsylvania",
+      "what_happened": "Two women stole a shopping cart full of Twisted Tea from a grocery store.",
+      "why_excluded": "No assault occurred. Theft only.",
+      "sources": [
+        { "label": "CBS Philly", "url": "https://www.cbsnews.com/philadelphia/news/tea-time-police-searching-for-2-women-accused-of-stealing-shopping-cart-full-of-twisted-tea/" }
+      ]
+    },
+    {
+      "date_display": "July 22, 2023",
+      "location": "El Milagro Market, Bakersfield, California",
+      "what_happened": "Two suspects stole Twisted Tea from a convenience store and punched the manager when confronted; both convicted of robbery.",
+      "why_excluded": "The can was the stolen property, not the weapon. The manager was struck with a fist.",
+      "sources": [
+        { "label": "KGET", "url": "https://www.kget.com/news/crime-watch/altercation-over-stolen-twisted-tea-results-in-felony-convictions/amp/" },
+        { "label": "Bakersfield Now", "url": "https://bakersfieldnow.com/newsletter-daily/kern-county-jury-convicts-duo-in-robbery-over-twisted-tea-theft-in-2023-kern-county-california" }
+      ]
+    },
+    {
+      "date_display": "December 24, 2024",
+      "location": "Hanover, Pennsylvania",
+      "what_happened": "DNA retrieved from a Twisted Tea can left at the scene helped solve a burglary.",
+      "why_excluded": "The can was used to solve a crime, not commit one.",
+      "sources": [
+        { "label": "Evening Sun", "url": "https://www.eveningsun.com/story/news/crime/2026/03/23/dna-from-tea-can-was-pivotal-in-hanover-burglary-investigation-police/89227873007/" }
+      ]
+    },
+    {
+      "date_display": "June 15, 17 & 21, 2026",
+      "location": "Circle K, El Paso, Texas",
+      "what_happened": "A masked man dressed as a clown stole Twisted Tea from the same store's beer cooler three times in about a week.",
+      "why_excluded": "No assault occurred. Theft only.",
+      "sources": [
+        { "label": "KFOX14", "url": "https://kfoxtv.com/news/local/police-seek-clown-masked-twisted-tea-thief-that-hit-east-el-paso-store-3-times-in-1-week" }
+      ]
+    },
+    {
+      "date_display": "November 8, 2025",
+      "location": "San Antonio, Texas",
+      "what_happened": "Two suspects stole Twisted Tea from a convenience store and hit an employee with their car while fleeing.",
+      "why_excluded": "The can was the stolen property, not the weapon. The employee was struck with a car.",
+      "sources": [
+        { "label": "News 4 San Antonio", "url": "https://news4sanantonio.com/news/local/employee-hit-by-car-as-suspects-steal-twisted-tea-from-east-side-store-police-say-sapd-crime-stoppers-aggravated-robbery" }
+      ]
+    },
+    {
+      "date_display": "August 30, 2025",
+      "location": "Las Vegas, Nevada",
+      "what_happened": "An argument during a street takeover event escalated into a deadly shooting.",
+      "why_excluded": "Twisted Tea was reportedly the reason for the argument, but a gun was used for the killing.",
+      "sources": [
+        { "label": "8 News Now", "url": "https://www.8newsnow.com/crime/fatal-las-vegas-street-takeover-shooting-may-have-stemmed-from-argument-over-alcohol/" }
+      ]
+    }
+  ]
+}
