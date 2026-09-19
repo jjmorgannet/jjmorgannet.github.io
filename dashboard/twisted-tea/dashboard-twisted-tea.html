@@ -552,9 +552,11 @@ aside.sidebar,
     var byState = {};
     data.confirmed.forEach(function(c){
       if (!c.state) return;
+      var fact = c.weapon_form || c.context || '';
       var html = '<strong>' + esc(c.location.split(',').pop().trim()) + '</strong><br>' +
         (c.status === 'confirmed' ? '1 confirmed incident' : '1 provisional incident') + '<br>' +
-        esc(c.case_id) + ' &middot; ' + esc(c.date_display || c.date);
+        esc(c.case_id) + ' &middot; ' + esc(c.date_display || c.date) +
+        (fact ? '<br>' + esc(fact) : '');
       byState[c.state] = { status: c.status, html: html };
     });
     document.querySelectorAll('#us-map path.state').forEach(function(el){
@@ -617,9 +619,11 @@ aside.sidebar,
       if (!c.date) return;
       var y = parseInt(String(c.date).slice(0, 4), 10);
       if (isNaN(y)) return;
-      years[y] = years[y] || { count: 0, statuses: [] };
+      years[y] = years[y] || { count: 0, statuses: [], entries: [] };
       years[y].count += 1;
       years[y].statuses.push(c.status);
+      years[y].entries.push(esc(c.case_id) + ' &middot; ' + esc(c.location) +
+        (c.status === 'provisional' ? ' (provisional)' : ''));
     });
     var yearNums = Object.keys(years).map(Number);
     var minYear = Math.min(2020, yearNums.length ? Math.min.apply(null, yearNums) : 2020);
@@ -635,7 +639,7 @@ aside.sidebar,
       var isProvisional = info && info.statuses.indexOf('confirmed') === -1 && info.statuses.indexOf('provisional') !== -1;
       var barClass = count === 0 ? 'zero' : (isProvisional ? 'provisional' : '');
       var height = count === 0 ? 4 : Math.round(20 + (count / maxCount) * 110);
-      var cases = info ? info.statuses.length + ' incident' + (info.statuses.length === 1 ? '' : 's') : 'No incidents recorded';
+      var cases = info ? info.entries.join('<br>') : 'No incidents recorded';
       html += '<div class="vbar-col" tabindex="0" data-info="<strong>' + y + '</strong><br>' + cases + '">' +
         '<span class="vbar-val">' + count + '</span>' +
         '<div class="vbar ' + barClass + '" style="height:' + height + 'px"></div>' +
