@@ -154,27 +154,18 @@ author_profile: false
     justify-content:flex-end;
     align-items:stretch !important;
   }
-.tta-dash .fig-plain{
-    text-align:center;
-    margin:0 0 20px;
-  }
-.tta-dash .fig-plain .fig-caption{
-    text-align:left;
-    max-width:64ch;
-    margin-left:auto;
-    margin-right:auto;
-  }
 .tta-dash .fig:last-child{margin-bottom:0;}
 .tta-dash .fig-caption{
     font-size:0.75rem;
     font-style:normal;
+    text-align:center;
     color:var(--ink-soft);
     max-width:64ch;
     background:var(--paper);
     border:1px solid var(--line);
     border-radius:14px;
     padding:14px 18px;
-    margin-top:14px;
+    margin:14px auto 0;
     box-shadow:0 1px 3px rgba(38,25,13,0.06);
   }
 .tta-dash .fig-caption em{font-style:normal;}
@@ -447,14 +438,6 @@ aside.sidebar,
         <figcaption class="fig-caption" id="charges-caption"><em>Loading&hellip;</em></figcaption>
       </figure>
     </div>
-
-    <figure class="fig-plain">
-      <div class="piechart-wrap">
-        <svg id="exclusion-pie" viewBox="0 0 200 200" role="img" aria-label="Donut chart of primary exclusion reasons"></svg>
-        <div class="pie-legend" id="pie-legend"></div>
-      </div>
-      <figcaption class="fig-caption" id="pie-caption"><em>Loading&hellip;</em></figcaption>
-    </figure>
   </section>
 
   <section id="incidents">
@@ -472,6 +455,14 @@ aside.sidebar,
     <p>Searching "Twisted Tea" and "assault" mostly returns theft reports, unrelated hot-tea incidents, and a
       genuinely large number of convenience-store robberies. Each near miss is logged with the reason it failed,
       because a registry that only shows what it counted hides the interesting part.</p>
+
+    <figure class="fig">
+      <div class="piechart-wrap">
+        <svg id="exclusion-pie" viewBox="0 0 200 200" role="img" aria-label="Donut chart of primary exclusion reasons"></svg>
+        <div class="pie-legend" id="pie-legend"></div>
+      </div>
+      <figcaption class="fig-caption" id="pie-caption"><em>Loading&hellip;</em></figcaption>
+    </figure>
 
     <table class="excluded-table">
       <thead><tr><th>Date</th><th>Location</th><th>What happened</th><th>Why excluded</th><th>Source</th></tr></thead>
