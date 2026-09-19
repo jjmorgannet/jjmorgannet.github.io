@@ -169,6 +169,12 @@ author_profile: false
 .tta-dash .fig-caption em{font-style:normal;}
 .tta-dash .fig-caption strong{color:var(--ink);}
 .tta-dash .map-wrap{max-width:680px;margin:0 auto;}
+.tta-dash .piechart-wrap{display:flex;align-items:center;justify-content:center;gap:32px;flex-wrap:wrap;padding:10px 0;}
+.tta-dash #exclusion-pie{width:200px;height:200px;flex:none;}
+.tta-dash .pie-legend{display:flex;flex-direction:column;gap:8px;font-size:0.78rem;}
+.tta-dash .pie-legend .pl-row{display:flex;align-items:center;gap:8px;cursor:pointer;}
+.tta-dash .pie-legend .pl-swatch{width:12px;height:12px;border-radius:3px;flex:none;}
+.tta-dash .pie-legend .pl-count{color:var(--ink-soft);font-family:"IBM Plex Mono",monospace;}
 .tta-dash .us-map{width:100%;height:auto;display:block;}
 .tta-dash .map-loading{font-family:"IBM Plex Mono",monospace;font-size:14px;fill:var(--ink-soft);}
 .tta-dash .state{stroke:var(--ink);stroke-width:0.6;fill:var(--paper-dark);cursor:pointer;transition:opacity 0.1s;}
@@ -349,7 +355,6 @@ aside.sidebar,
   </section>
 
   <section id="chart">
-    <h2>Charts</h2>
 
     <figure class="fig">
       <div class="map-wrap">
@@ -438,11 +443,25 @@ aside.sidebar,
     <div id="case-blocks"><p><em>Loading&hellip;</em></p></div>
   </section>
 
+  <section id="provisional-incidents">
+    <h2>Provisional incidents</h2>
+    <div id="provisional-blocks"><p><em>Loading&hellip;</em></p></div>
+  </section>
+
   <section id="excluded">
     <h2>Excluded cases</h2>
     <p>Searching "Twisted Tea" and "assault" mostly returns theft reports, unrelated hot-tea incidents, and a
       genuinely large number of convenience-store robberies. Each near miss is logged with the reason it failed,
       because a registry that only shows what it counted hides the interesting part.</p>
+
+    <figure class="fig">
+      <div class="piechart-wrap">
+        <svg id="exclusion-pie" viewBox="0 0 200 200" role="img" aria-label="Donut chart of primary exclusion reasons"></svg>
+        <div class="pie-legend" id="pie-legend"></div>
+      </div>
+      <figcaption class="fig-caption" id="pie-caption"><em>Loading&hellip;</em></figcaption>
+    </figure>
+
     <table class="excluded-table">
       <thead><tr><th>Date</th><th>Location</th><th>What happened</th><th>Why excluded</th><th>Source</th></tr></thead>
       <tbody id="excluded-tbody"></tbody>
@@ -608,23 +627,32 @@ aside.sidebar,
     return (tens[t] + (o ? '-' + words[o] : '')).replace(/^./, function(c){ return c.toUpperCase(); });
   }
 
-  function renderCaseBlocks(data){
-    var html = data.confirmed.map(function(c){
-      var rows = '';
-      rows += '<tr><th>Case ID</th><td><span class="case-id">' + esc(c.case_id) + '</span>' +
-        (c.status === 'provisional' ? ' <span class="status-pill provisional">provisional</span>' : '') + '</td></tr>';
-      rows += '<tr><th>Date</th><td>' + esc(c.date_display || c.date) + '</td></tr>';
-      rows += '<tr><th>Location</th><td>' + esc(c.location) + '</td></tr>';
-      rows += '<tr><th>Weapon</th><td>' + esc(c.weapon_form) + '</td></tr>';
-      if (c.context) rows += '<tr><th>Context</th><td>' + c.context + '</td></tr>';
-      if (c.sequence) rows += '<tr><th>Sequence</th><td>' + c.sequence + '</td></tr>';
-      rows += '<tr><th>Charges</th><td>' + esc(c.charge_description) + '</td></tr>';
-      if (c.why_provisional) rows += '<tr><th>Why provisional</th><td class="why">' + c.why_provisional + '</td></tr>';
-      if (c.outcome) rows += '<tr><th>Outcome</th><td>' + c.outcome + '</td></tr>';
-      rows += '<tr><th>Sources</th><td>' + sourceLinks(c.sources) + '</td></tr>';
-      return '<div class="case-block"><table>' + rows + '</table></div>';
-    }).join('\n');
-    document.getElementById('case-blocks').innerHTML = html;
+  function caseBlockHtml(c){
+    var rows = '';
+    rows += '<tr><th>Case ID</th><td><span class="case-id">' + esc(c.case_id) + '</span>' +
+      (c.status === 'provisional' ? ' <span class="status-pill provisional">provisional</span>' : '') + '</td></tr>';
+    rows += '<tr><th>Date</th><td>' + esc(c.date_display || c.date) + '</td></tr>';
+    rows += '<tr><th>Location</th><td>' + esc(c.location) + '</td></tr>';
+    rows += '<tr><th>Weapon</th><td>' + esc(c.weapon_form) + '</td></tr>';
+    if (c.context) rows += '<tr><th>Context</th><td>' + c.context + '</td></tr>';
+    if (c.sequence) rows += '<tr><th>Sequence</th><td>' + c.sequence + '</td></tr>';
+    rows += '<tr><th>Charges</th><td>' + esc(c.charge_description) + '</td></tr>';
+    if (c.why_provisional) rows += '<tr><th>Why provisional</th><td class="why">' + c.why_provisional + '</td></tr>';
+    if (c.outcome) rows += '<tr><th>Outcome</th><td>' + c.outcome + '</td></tr>';
+    rows += '<tr><th>Sources</th><td>' + sourceLinks(c.sources) + '</td></tr>';
+    return '<div class="case-block"><table>' + rows + '</table></div>';
+  }
+
+  function renderConfirmedBlocks(data){
+    var confirmed = data.confirmed.filter(function(c){ return c.status === 'confirmed'; });
+    document.getElementById('case-blocks').innerHTML = confirmed.map(caseBlockHtml).join('\n');
+  }
+
+  function renderProvisionalBlocks(data){
+    var provisional = data.confirmed.filter(function(c){ return c.status === 'provisional'; });
+    document.getElementById('provisional-blocks').innerHTML = provisional.length
+      ? provisional.map(caseBlockHtml).join('\n')
+      : '<p><em>No provisional incidents currently logged.</em></p>';
   }
 
   function renderExcluded(data){
@@ -633,6 +661,51 @@ aside.sidebar,
         esc(x.what_happened) + '</td><td>' + esc(x.why_excluded) + '</td><td>' + sourceLinks(x.sources) + '</td></tr>';
     }).join('\n');
     document.getElementById('excluded-tbody').innerHTML = rows;
+  }
+
+  function renderExclusionPie(data){
+    var order = ['Not in United States', 'Theft only', 'DUI/Open Container only', 'Not used in assault', 'Other'];
+    var colors = {
+      'Not in United States': 'var(--amber-deep)',
+      'Theft only': 'var(--amber)',
+      'DUI/Open Container only': 'var(--orange)',
+      'Not used in assault': 'var(--gray-dark)',
+      'Other': '#8A8F8C'
+    };
+    var counts = {};
+    order.forEach(function(k){ counts[k] = 0; });
+    data.excluded.forEach(function(x){
+      var cat = order.indexOf(x.reason_category) !== -1 ? x.reason_category : 'Other';
+      counts[cat] += 1;
+    });
+    var total = data.excluded.length;
+    var r = 80, cx = 100, cy = 100, circumference = 2 * Math.PI * r;
+    var offset = 0;
+    var svgParts = ['<circle cx="' + cx + '" cy="' + cy + '" r="' + r + '" fill="none" stroke="var(--paper-dark)" stroke-width="32"></circle>'];
+    var legendParts = [];
+    order.forEach(function(cat){
+      var count = counts[cat];
+      if (count === 0) return;
+      var pct = count / total;
+      var dash = pct * circumference;
+      var gap = circumference - dash;
+      var rotation = (offset / circumference) * 360 - 90;
+      var pctLabel = Math.round(pct * 100) + '%';
+      var info = '<strong>' + esc(cat) + '</strong><br>' + count + ' of ' + total + ' excluded cases (' + pctLabel + ')';
+      svgParts.push('<circle class="pie-slice" tabindex="0" data-info="' + info + '" cx="' + cx + '" cy="' + cy +
+        '" r="' + r + '" fill="none" stroke="' + colors[cat] + '" stroke-width="32" ' +
+        'stroke-dasharray="' + dash.toFixed(2) + ' ' + gap.toFixed(2) + '" ' +
+        'transform="rotate(' + rotation.toFixed(2) + ' ' + cx + ' ' + cy + ')"></circle>');
+      legendParts.push('<div class="pl-row" tabindex="0" data-info="' + info + '">' +
+        '<span class="pl-swatch" style="background:' + colors[cat] + '"></span>' +
+        '<span>' + esc(cat) + '</span><span class="pl-count">' + count + '</span></div>');
+      offset += dash;
+    });
+    document.getElementById('exclusion-pie').innerHTML = svgParts.join('');
+    document.getElementById('pie-legend').innerHTML = legendParts.join('');
+    document.getElementById('pie-caption').innerHTML =
+      '<strong>Figure 4.</strong> Primary reason each excluded case didn&rsquo;t count, out of ' + total +
+      ' logged near misses. Cases matching more than one reason are filed under the highest-priority one.';
   }
 
   function renderYearChart(data){
@@ -695,8 +768,10 @@ aside.sidebar,
     .then(function(data){
       var stats = renderStats(data);
       renderMap(data, stats.stateCount);
-      renderCaseBlocks(data);
+      renderConfirmedBlocks(data);
+      renderProvisionalBlocks(data);
       renderExcluded(data);
+      renderExclusionPie(data);
       renderYearChart(data);
       renderChargesChart(data);
       wireTooltips();
@@ -704,9 +779,11 @@ aside.sidebar,
     .catch(function(err){
       document.getElementById('case-blocks').innerHTML =
         '<p><em>Could not load incident data (twisted-tea-incidents.json). ' + esc(err.message) + '</em></p>';
+      document.getElementById('provisional-blocks').innerHTML = '<p><em>Data unavailable.</em></p>';
       document.getElementById('map-caption').innerHTML = '<em>Map data unavailable.</em>';
       document.getElementById('year-caption').innerHTML = '<em>Chart data unavailable.</em>';
       document.getElementById('charges-caption').innerHTML = '<em>Chart data unavailable.</em>';
+      document.getElementById('pie-caption').innerHTML = '<em>Chart data unavailable.</em>';
     });
 })();
 </script>
