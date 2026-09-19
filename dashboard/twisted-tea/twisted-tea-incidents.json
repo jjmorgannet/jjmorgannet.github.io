@@ -9,7 +9,7 @@
       "location": "Circle K, Elyria, Ohio",
       "state": "OH",
       "weapon_form": "24 oz can, swung at head",
-      "context": "An unmasked man at the checkout counter directed racial slurs and taunts at another customer, later identified as Barry Allen, and goaded him to fight.",
+      "context": "An unmasked man at the checkout counter directed racial slurs and taunts at another customer, later identified as Barry Allen (deceased 2025-03-22, unrelated), and goaded him to fight.",
       "sequence": "Allen, who appeared to want only to pay for his tallboy and leave, struck the man with the can and continued the altercation on the ground.",
       "charges_filed": false,
       "charge_description": "None filed, per local reporting",
@@ -28,6 +28,10 @@
         {
           "label": "Local 12",
           "url": "https://local12.com/news/nation-world/man-beaten-with-twisted-tea-can-after-shouting-racial-slurs-in-ohio-gas-station"
+        },
+        {
+          "label": "The Chronicle-Telegram",
+          "url": "https://chroniclet.com/news/425581/elyria-man-viral-sensation-in-twisted-tea-video-dies-unexpectedly/"
         }
       ]
     },
@@ -60,7 +64,7 @@
       "case_id": "TTA-2021-001",
       "date": "2021-01-19",
       "date_display": "January 19, 2021",
-      "location": "Peachland Promenade, Port Charlotte, Charlotte County, Florida",
+      "location": "Peachland Promenade, Port Charlotte, Florida",
       "state": "FL",
       "weapon_form": "Can brandished; a steel pipe was also carried",
       "context": "The suspect made threatening calls to a former boss before arriving at the scene.",
@@ -88,7 +92,7 @@
       "location": "Carson City, Nevada",
       "state": "NV",
       "weapon_form": "Can thrown",
-      "context": "The can was thrown at the suspect's domestic partner during a dispute that also led to a vehicle-burglary charge.",
+      "context": "The can was thrown at the suspect's significant other during a dispute that also led to a burglary charge.",
       "sequence": null,
       "charges_filed": true,
       "charge_description": "Domestic battery, burglary of a motor vehicle",
@@ -105,22 +109,58 @@
   ],
   "excluded": [
     {
+      "date_display": "January 29, 2016",
+      "location": "Rite Aid, Concord, NH",
+      "what_happened": "A teenager landed in trouble after stealing two cans of Twisted Tea from a pharmacy.",
+      "why_excluded": "No assault occurred. Theft only.",
+      "sources": [
+        {
+          "label": "Patch",
+          "url": "https://patch.com/new-hampshire/concord-nh/stolen-twisted-teas-liquor-lands-teen-trouble-log"
+        }
+      ]
+    },
+    {
       "date_display": "March 1, 2019",
-      "location": "Acme, Feasterville, Pennsylvania",
+      "location": "Acme, Feasterville, PA",
       "what_happened": "Two women stole a shopping cart full of Twisted Tea from a grocery store.",
       "why_excluded": "No assault occurred. Theft only.",
       "sources": [
         {
-          "label": "CBS Philly",
+          "label": "CBS News Philadelphia",
           "url": "https://www.cbsnews.com/philadelphia/news/tea-time-police-searching-for-2-women-accused-of-stealing-shopping-cart-full-of-twisted-tea/"
         }
       ]
     },
     {
+      "date_display": "March 21, 2019",
+      "location": "Interstate 93, Concord, NH",
+      "what_happened": "A truck hauling Twisted Tea caught fire, shutting down Interstate 93.",
+      "why_excluded": "A transportation fire, not an assault.",
+      "sources": [
+        {
+          "label": "Patch",
+          "url": "https://patch.com/new-hampshire/concord-nh/twisted-tea-truck-fire-causes-interstate-93-shutdown"
+        }
+      ]
+    },
+    {
+      "date_display": "July 13, 2022",
+      "location": "Sandy's Bar, Belington, WV",
+      "what_happened": "A man bought two Twisted Teas at a nearby Sheetz, then set fire to the rear of a vacant bar; he was charged with second-degree arson.",
+      "why_excluded": "Twisted Tea was purchased, not used as a weapon or stolen; the arson was unrelated to the tea.",
+      "sources": [
+        {
+          "label": "WBOY",
+          "url": "https://www.wboy.com/news/crime/man-charged-after-buying-2-twisted-teas-allegedly-trying-to-set-belington-bar-on-fire/"
+        }
+      ]
+    },
+    {
       "date_display": "July 22, 2023",
-      "location": "El Milagro Market, Bakersfield, California",
-      "what_happened": "Two suspects stole Twisted Tea from a convenience store and punched the manager when confronted; both convicted of robbery.",
-      "why_excluded": "The can was the stolen property, not the weapon. The manager was struck with a fist.",
+      "location": "El Milagro Market, Bakersfield, CA",
+      "what_happened": "Suspects stole two cans of Twisted Tea from a convenience store and punched the manager when confronted; both convicted of robbery.",
+      "why_excluded": "The cans were the stolen property, not the weapons. The manager was struck with a fist.",
       "sources": [
         {
           "label": "KGET",
@@ -133,69 +173,9 @@
       ]
     },
     {
-      "date_display": "December 24, 2024",
-      "location": "Hanover, Pennsylvania",
-      "what_happened": "DNA retrieved from a Twisted Tea can left at the scene helped solve a burglary.",
-      "why_excluded": "The can was used to solve a crime, not commit one.",
-      "sources": [
-        {
-          "label": "Evening Sun",
-          "url": "https://www.eveningsun.com/story/news/crime/2026/03/23/dna-from-tea-can-was-pivotal-in-hanover-burglary-investigation-police/89227873007/"
-        }
-      ]
-    },
-    {
-      "date_display": "June 15, 17 & 21, 2026",
-      "location": "Circle K, El Paso, Texas",
-      "what_happened": "A masked man dressed as a clown stole Twisted Tea from the same store's beer cooler three times in about a week.",
-      "why_excluded": "No assault occurred. Theft only.",
-      "sources": [
-        {
-          "label": "KFOX14",
-          "url": "https://kfoxtv.com/news/local/police-seek-clown-masked-twisted-tea-thief-that-hit-east-el-paso-store-3-times-in-1-week"
-        }
-      ]
-    },
-    {
-      "date_display": "November 8, 2025",
-      "location": "San Antonio, Texas",
-      "what_happened": "Two suspects stole Twisted Tea from a convenience store and hit an employee with their car while fleeing.",
-      "why_excluded": "The can was the stolen property, not the weapon. The employee was struck with a car.",
-      "sources": [
-        {
-          "label": "News 4 San Antonio",
-          "url": "https://news4sanantonio.com/news/local/employee-hit-by-car-as-suspects-steal-twisted-tea-from-east-side-store-police-say-sapd-crime-stoppers-aggravated-robbery"
-        }
-      ]
-    },
-    {
-      "date_display": "August 30, 2025",
-      "location": "Las Vegas, Nevada",
-      "what_happened": "An argument during a street takeover event escalated into a deadly shooting.",
-      "why_excluded": "Twisted Tea was reportedly the reason for the argument, but a gun was used for the killing.",
-      "sources": [
-        {
-          "label": "8 News Now",
-          "url": "https://www.8newsnow.com/crime/fatal-las-vegas-street-takeover-shooting-may-have-stemmed-from-argument-over-alcohol/"
-        }
-      ]
-    },
-    {
-      "date_display": "Undated",
-      "location": "Circle K, Sault Ste. Marie, Ontario",
-      "what_happened": "Thieves stole Twisted Tea from a Circle K, per a local Crime Stoppers \"crime of the week\" post.",
-      "why_excluded": "No assault occurred. Theft only.",
-      "sources": [
-        {
-          "label": "SooToday",
-          "url": "https://www.sootoday.com/city-police-beat/crime-of-the-week-thieves-bag-twisted-tea-from-circle-k-10806115"
-        }
-      ]
-    },
-    {
       "date_display": "October 25, 2023",
-      "location": "Boston Beer Blues warehouse, Memphis, Tennessee",
-      "what_happened": "Approximately 32,000 cases of Twisted Tea, valued at about $800,000, were stolen from a warehouse; the products had been scanned as delivered, suggesting an inside job. No arrests had been made as of the report.",
+      "location": "Boston Beer Blues warehouse, Memphis, TN",
+      "what_happened": "Approximately 32,000 cases of Twisted Tea, valued at about $800,000, were stolen from a warehouse; the products had been scanned as delivered, suggesting an inside job.",
       "why_excluded": "Large-scale warehouse theft, not an assault.",
       "sources": [
         {
@@ -209,32 +189,32 @@
       ]
     },
     {
-      "date_display": "August 11, 2025",
-      "location": "E-Z Mart, Broken Arrow, Oklahoma",
-      "what_happened": "A teenager stole two 12-packs of Twisted Tea; a store clerk who tried to block the exits managed to recover one case before the suspect fled with the other.",
-      "why_excluded": "Theft only, though there was a brief physical struggle with the clerk over the merchandise itself, not an assault.",
+      "date_display": "January 27, 2024",
+      "location": "Sheetz, Towanda, PA",
+      "what_happened": "Four teens took approximately $100 in Twisted Tea Light from a Sheetz. They were apprehended and charged with theft.",
+      "why_excluded": "No assault occurred. Theft only.",
       "sources": [
         {
-          "label": "KTUL",
-          "url": "https://ktul.com/news/local/suspect-sought-in-theft-of-twisted-tea-from-broken-arrow-store-crime-alcohol-wagoner-county-sheriffs-office"
+          "label": "2822 News",
+          "url": "https://www.2822news.com/news/crime-courts/four-teens-accused-of-stealing-alcohol-from-sheetz/"
         }
       ]
     },
     {
-      "date_display": "Undated (June 21)",
-      "location": "Sandy's Bar, Belington, West Virginia",
-      "what_happened": "A man bought two Twisted Teas at a nearby Sheetz, then set fire to the rear of a vacant bar; he was charged with second-degree arson.",
-      "why_excluded": "Twisted Tea was purchased, not used as a weapon or stolen; the arson had nothing to do with the tea itself.",
+      "date_display": "October 31, 2024",
+      "location": "Westoak Convenience Store, Oakville, ON",
+      "what_happened": "A case of Twisted Tea was taken from a convenience store. When the clerk gave chase, a second group stole another case of Twisted Tea and fled",
+      "why_excluded": "Not in the United States. No assault occurred. Theft only.",
       "sources": [
         {
-          "label": "WBOY",
-          "url": "https://www.wboy.com/news/crime/man-charged-after-buying-2-twisted-teas-allegedly-trying-to-set-belington-bar-on-fire/"
+          "label": "InsideHalton",
+          "url": "https://www.insidehalton.com/news/crime/twisted-tea-taken-from-oakville-convenience-store-during-halloween-theft/article_74e63f03-c40b-53a0-8456-4b50b5e1d77c.html"
         }
       ]
     },
     {
       "date_display": "November 17, 2024",
-      "location": "DK convenience store, Big Spring, Texas",
+      "location": "DK Convenience Store, Big Spring, TX",
       "what_happened": "A suspect attempted to flee with a stolen pack of Twisted Tea; when a witness tried to stop him, the suspect drew a gun, resulting in an aggravated robbery charge.",
       "why_excluded": "The weapon was a firearm, not the can; the can was the stolen item.",
       "sources": [
@@ -245,54 +225,86 @@
       ]
     },
     {
-      "date_display": "Undated",
-      "location": "Sheetz, Lewisburg, Pennsylvania",
-      "what_happened": "Suspects took several alcoholic beverages from a Sheetz, including Twisted Tea, wine, and Four Loko; all stolen products were recovered from their vehicle.",
-      "why_excluded": "Theft only; Twisted Tea was one of several items taken.",
+      "date_display": "December 24, 2024",
+      "location": "Hanover, PA",
+      "what_happened": "DNA retrieved from a Twisted Tea can left at the scene helped solve a burglary.",
+      "why_excluded": "The can was used to solve a crime, not commit one.",
+      "sources": [
+        {
+          "label": "Evening Sun",
+          "url": "https://www.eveningsun.com/story/news/crime/2026/03/23/dna-from-tea-can-was-pivotal-in-hanover-burglary-investigation-police/89227873007/"
+        }
+      ]
+    },
+    {
+      "date_display": "May 28, 2025",
+      "location": "Circle K, Sault Ste. Marie, ON",
+      "what_happened": "Thieves stole several cases of Twisted Tea from a Circle K.",
+      "why_excluded": "Not in the United States. No assault occurred. Theft only.",
+      "sources": [
+        {
+          "label": "SooToday",
+          "url": "https://www.sootoday.com/city-police-beat/crime-of-the-week-thieves-bag-twisted-tea-from-circle-k-10806115"
+        }
+      ]
+    },
+    {
+      "date_display": "May 28, 2025",
+      "location": "Sheetz, Muncy, PA",
+      "what_happened": "Suspect stole a can of Twisted Tea from a Sheetz. He escaped in a 2008 beige Ford.",
+      "why_excluded": "No assault occurred. Theft only.",
       "sources": [
         {
           "label": "North Central PA",
           "url": "https://www.northcentralpa.com/news/crime/police-investigating-beer-theft-from-sheetz/article_4c26e7e4-cc98-4649-945f-d9387b69c458.html"
-        },
-        {
-          "label": "2822 News",
-          "url": "https://www.2822news.com/news/crime-courts/four-teens-accused-of-stealing-alcohol-from-sheetz/"
         }
       ]
     },
     {
-      "date_display": "Undated (Halloween)",
-      "location": "Convenience store, Oakville, Ontario",
-      "what_happened": "Twisted Tea was taken from a convenience store during a Halloween theft.",
+      "date_display": "August 11, 2025",
+      "location": "E-Z Mart, Broken Arrow, OK",
+      "what_happened": "A teenager stole two 12-packs of Twisted Tea; a store clerk who tried to block the exits managed to recover one case before the suspect fled with the other.",
       "why_excluded": "No assault occurred. Theft only.",
       "sources": [
         {
-          "label": "InsideHalton",
-          "url": "https://www.insidehalton.com/news/crime/twisted-tea-taken-from-oakville-convenience-store-during-halloween-theft/article_74e63f03-c40b-53a0-8456-4b50b5e1d77c.html"
+          "label": "KTUL",
+          "url": "https://ktul.com/news/local/suspect-sought-in-theft-of-twisted-tea-from-broken-arrow-store-crime-alcohol-wagoner-county-sheriffs-office"
         }
       ]
     },
     {
-      "date_display": "Undated",
-      "location": "Interstate 93, Concord, New Hampshire",
-      "what_happened": "A truck hauling Twisted Tea caught fire, shutting down Interstate 93.",
-      "why_excluded": "A transportation fire, not an assault.",
+      "date_display": "August 30, 2025",
+      "location": "San Antonio, TX",
+      "what_happened": "Two suspects stole Twisted Tea from a convenience store and hit an employee with their car while fleeing.",
+      "why_excluded": "The can was the stolen property, not the weapon. The employee was struck by a car.",
       "sources": [
         {
-          "label": "Patch",
-          "url": "https://patch.com/new-hampshire/concord-nh/twisted-tea-truck-fire-causes-interstate-93-shutdown"
+          "label": "News 4 San Antonio",
+          "url": "https://news4sanantonio.com/news/local/employee-hit-by-car-as-suspects-steal-twisted-tea-from-east-side-store-police-say-sapd-crime-stoppers-aggravated-robbery"
         }
       ]
     },
     {
-      "date_display": "Undated",
-      "location": "Concord, New Hampshire",
-      "what_happened": "A teenager landed in trouble after stealing Twisted Tea and other liquor.",
+      "date_display": "November 8, 2025",
+      "location": "Las Vegas, NV",
+      "what_happened": "An argument over a Twisted Tea during a street takeover event escalated into a deadly shooting.",
+      "why_excluded": "Twisted Tea was the reason for the argument, but a gun was used for the killing.",
+      "sources": [
+        {
+          "label": "8 News Now",
+          "url": "https://www.8newsnow.com/crime/fatal-las-vegas-street-takeover-shooting-may-have-stemmed-from-argument-over-alcohol/"
+        }
+      ]
+    },
+    {
+      "date_display": "June 15-21, 2026",
+      "location": "Circle K, El Paso, TX",
+      "what_happened": "A man dressed as in a clown mask stole Twisted Tea from the same store's beer cooler three times in about a week.",
       "why_excluded": "No assault occurred. Theft only.",
       "sources": [
         {
-          "label": "Patch",
-          "url": "https://patch.com/new-hampshire/concord-nh/stolen-twisted-teas-liquor-lands-teen-trouble-log"
+          "label": "KFOX14",
+          "url": "https://kfoxtv.com/news/local/police-seek-clown-masked-twisted-tea-thief-that-hit-east-el-paso-store-3-times-in-1-week"
         }
       ]
     }
