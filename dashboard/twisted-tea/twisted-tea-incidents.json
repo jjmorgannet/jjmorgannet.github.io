@@ -62,6 +62,13 @@
       "what_happened": "Two suspects stole Twisted Tea from a convenience store and punched the manager when confronted; convicted of robbery.",
       "why_excluded": "The can was the stolen property, not the weapon. The manager was struck with a fist.",
       "sources": ["https://www.kget.com/news/crime-watch/altercation-over-stolen-twisted-tea-results-in-felony-convictions/amp/"]
+    },    
+    {
+      "date": "2025-08-30",
+      "location": "Rigsby Food Market, San Antonio, TX",
+      "what_happened": "Two suspects stole Twisted Tea from a convenience store and hit an employee with their car while fleeing.",
+      "why_excluded": "The can was the stolen property, not the weapon. The employee was struck with a car.",
+      "sources": ["https://news4sanantonio.com/news/local/employee-hit-by-car-as-suspects-steal-twisted-tea-from-east-side-store-police-say-sapd-crime-stoppers-aggravated-robbery"]
     },
     {
       "date": "2026-06-15, 2026-06-17, 2026-06-21",
