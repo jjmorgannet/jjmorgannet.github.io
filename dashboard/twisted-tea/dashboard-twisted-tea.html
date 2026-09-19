@@ -148,8 +148,26 @@ author_profile: false
     flex:1 1 280px;
     margin-bottom:0;
   }
+.tta-dash .fig-bottom{
+    display:flex !important;
+    flex-direction:column;
+    justify-content:flex-end;
+  }
 .tta-dash .fig:last-child{margin-bottom:0;}
-.tta-dash .fig-caption{font-size:0.75rem;color:var(--ink-soft);margin-top:10px;max-width:64ch;}
+.tta-dash .fig-caption{
+    font-size:0.75rem;
+    font-style:normal;
+    color:var(--ink-soft);
+    max-width:64ch;
+    background:var(--paper);
+    border:1px solid var(--line);
+    border-radius:14px;
+    padding:14px 18px;
+    margin-top:14px;
+    box-shadow:0 1px 3px rgba(38,25,13,0.06);
+  }
+.tta-dash .fig-caption em{font-style:normal;}
+.tta-dash .fig-caption strong{color:var(--ink);}
 .tta-dash .map-wrap{max-width:680px;margin:0 auto;}
 .tta-dash .us-map{width:100%;height:auto;display:block;}
 .tta-dash .map-loading{font-family:"IBM Plex Mono",monospace;font-size:14px;fill:var(--ink-soft);}
@@ -314,7 +332,7 @@ aside.sidebar,
       improvised weapon, tracked since the format was invented at a Circle K in Elyria, Ohio, on Christmas Eve 2020.</p>
     <div class="meta-row">
       <span>Last updated 2026-09-18</span>
-      <span class="meta-highlight">n = 3 confirmed, 1 provisional</span>
+      <span class="meta-highlight" id="meta-n">n = &hellip;</span>
       <span>Coverage: national</span>
       <span>Peer reviewed: no</span>
     </div>
@@ -326,6 +344,7 @@ aside.sidebar,
       <div class="stat"><span class="n" id="stat-states">&hellip;</span><span class="l">States reporting<small>of 50</small></span></div>
       <div class="stat"><span class="n" id="stat-confirmed">&hellip;</span><span class="l">Confirmed incidents</span></div>
       <div class="stat"><span class="n" id="stat-provisional">&hellip;</span><span class="l">Provisional<small>(weapon disputed)</small></span></div>
+      <div class="stat"><span class="n" id="stat-excluded">&hellip;</span><span class="l">Excluded cases<small>Twisted Tea not used as weapon</small></span></div>
     </div>
   </section>
 
@@ -407,7 +426,7 @@ aside.sidebar,
         <div class="vbarchart" id="vbarchart"></div>
         <figcaption class="fig-caption" id="year-caption"><em>Loading&hellip;</em></figcaption>
       </figure>
-      <figure class="fig">
+      <figure class="fig fig-bottom">
         <div class="barchart" id="chargeschart"></div>
         <figcaption class="fig-caption" id="charges-caption"><em>Loading&hellip;</em></figcaption>
       </figure>
@@ -538,13 +557,16 @@ aside.sidebar,
   function renderStats(data){
     var confirmedCount = data.confirmed.filter(function(c){ return c.status === 'confirmed'; }).length;
     var provisionalCount = data.confirmed.filter(function(c){ return c.status === 'provisional'; }).length;
+    var excludedCount = data.excluded.length;
     var states = {};
     data.confirmed.forEach(function(c){ if (c.state) states[c.state] = true; });
     var stateCount = Object.keys(states).length;
     document.getElementById('stat-confirmed').textContent = confirmedCount;
     document.getElementById('stat-provisional').textContent = provisionalCount;
+    document.getElementById('stat-excluded').textContent = excludedCount;
     document.getElementById('stat-states').textContent = stateCount;
     document.getElementById('stat-views').textContent = data.views_on_origin_video || '\u2014';
+    document.getElementById('meta-n').textContent = 'n = ' + confirmedCount + ' confirmed, ' + provisionalCount + ' provisional';
     return { confirmedCount: confirmedCount, provisionalCount: provisionalCount, stateCount: stateCount, states: states };
   }
 
@@ -573,8 +595,8 @@ aside.sidebar,
     var noneCount = 50 - stateCount;
     var noneWord = (noneCount === 1) ? 'state reports' : 'states report';
     document.getElementById('map-caption').innerHTML =
-      '<em>Figure 1. Hover or tap a state for its case detail. ' + spellNumber(noneCount) + ' ' + noneWord +
-      ' nothing at all, which given the sample size is not much of a finding.</em>';
+      '<strong>Figure 1.</strong> Hover or tap a state for its case detail. ' + spellNumber(noneCount) + ' ' + noneWord +
+      ' nothing at all, which given the sample size is not much of a finding.';
   }
 
   function spellNumber(n){
@@ -647,8 +669,8 @@ aside.sidebar,
     }
     document.getElementById('vbarchart').innerHTML = html;
     document.getElementById('year-caption').innerHTML =
-      '<em>Figure 2. Incidents by year &mdash; hover or tap a column. The registry currently spans ' + minYear +
-      ' through ' + maxYear + '. A registry with n = ' + data.confirmed.length + ' supports no claims about trends.</em>';
+      '<strong>Figure 2.</strong> Incidents by year &mdash; hover or tap a column. The registry currently spans ' + minYear +
+      ' through ' + maxYear + '. A registry with n = ' + data.confirmed.length + ' supports no claims about trends.';
   }
 
   function renderChargesChart(data){
@@ -665,7 +687,7 @@ aside.sidebar,
     }
     document.getElementById('chargeschart').innerHTML = row('Charged', charged) + row('No charges', notCharged);
     document.getElementById('charges-caption').innerHTML =
-      '<em>Figure 3. Charges filed, where reported &mdash; hover or tap a bar.</em>';
+      '<strong>Figure 3.</strong> Charges filed, where reported &mdash; hover or tap a bar.';
   }
 
   fetch('twisted-tea-incidents.json?v=' + Date.now(), { cache: 'no-store' })
