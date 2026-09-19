@@ -49,26 +49,26 @@
     }
   ],
   "excluded": [
+   {
+      "date": "2019-03-01",
+      "location": "Acme, Feasterville, PA",
+      "what_happened": "Two women stole a shopping cart full of Twisted Tea from a grocery store.",
+      "why_excluded": "No assault occurred. Theft only.",
+      "sources": ["https://www.cbsnews.com/philadelphia/news/tea-time-police-searching-for-2-women-accused-of-stealing-shopping-cart-full-of-twisted-tea/"]
+    },
     {
       "date": "2023-07-22",
-      "location": "Bakersfield, CA",
+      "location": "El Milagro Market, Bakersfield, CA",
       "what_happened": "Two suspects stole Twisted Tea from a convenience store and punched the manager when confronted; convicted of robbery.",
       "why_excluded": "The can was the stolen property, not the weapon. The manager was struck with a fist.",
       "sources": ["https://www.kget.com/news/crime-watch/altercation-over-stolen-twisted-tea-results-in-felony-convictions/amp/"]
     },
     {
-      "date": "unknown",
-      "location": "Logan, Philadelphia, PA",
-      "what_happened": "A man threw a cup of hot tea in a restaurant employee's face during a dispute, causing burns.",
-      "why_excluded": "Brand not identified as Twisted Tea, and the liquid was thrown rather than the can used as an implement.",
-      "sources": ["https://6abc.com/4681082/"]
-    },
-    {
-      "date": "unknown",
-      "location": "Feasterville, PA",
-      "what_happened": "Two women stole a shopping cart full of Twisted Tea from a grocery store.",
+      "date": "2026-06-15, 2026-06-17, 2026-06-21",
+      "location": "Circle K, El Paso, TX",
+      "what_happened": "Masked man dressed as clown stole Twisted Tea from cooler three times.",
       "why_excluded": "No assault occurred. Theft only.",
-      "sources": ["https://www.cbsnews.com/philadelphia/news/tea-time-police-searching-for-2-women-accused-of-stealing-shopping-cart-full-of-twisted-tea/"]
+      "sources": ["https://kfoxtv.com/news/local/police-seek-clown-masked-twisted-tea-thief-that-hit-east-el-paso-store-3-times-in-1-week`"]
     }
   ]
 }
