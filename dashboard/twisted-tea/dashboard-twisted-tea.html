@@ -327,6 +327,40 @@ aside.sidebar,
   }
 .tta-dash .sources-list{margin:6px 0 0;padding-left:18px;font-size:0.75rem;}
 .tta-dash .sources-list li{margin-bottom:2px;}
+.tta-dash .cite-block{margin-bottom:20px;}
+.tta-dash .cite-block:last-child{margin-bottom:0;}
+.tta-dash .cite-label{
+    font-family:"IBM Plex Mono",monospace;
+    font-size:0.72rem;
+    text-transform:uppercase;
+    letter-spacing:0.04em;
+    color:var(--ink-soft);
+    margin:0 0 8px;
+  }
+.tta-dash .cite-box{
+    background:var(--ink);
+    color:var(--paper);
+    font-family:"IBM Plex Mono",monospace;
+    font-size:0.75rem;
+    line-height:1.7;
+    padding:18px 20px;
+    border-radius:14px;
+    white-space:pre-wrap;
+    word-break:break-word;
+    margin:0 0 10px;
+  }
+.tta-dash .cite-copy-btn{
+    font-family:"IBM Plex Mono",monospace;
+    font-size:0.72rem;
+    border:1px solid var(--ink);
+    padding:6px 14px;
+    border-radius:999px;
+    background:var(--paper);
+    color:var(--ink);
+    cursor:pointer;
+  }
+.tta-dash .cite-copy-btn:hover{background:var(--ink);color:var(--paper);}
+.tta-dash .cite-copy-btn.copied{background:var(--amber);border-color:var(--amber);color:var(--ink);}
 </style>
 
 
@@ -509,6 +543,29 @@ aside.sidebar,
         incidents six years ago, not a wave. Absence of a state from this list means no reported case was found,
         not that none occurred.</dd>
     </dl>
+  </section>
+
+  <section id="citation">
+    <h2>How to cite this database</h2>
+    <p>For anyone whose institutional review board has not yet asked the obvious follow-up question.</p>
+
+    <div class="cite-block">
+      <p class="cite-label">APA</p>
+      <div class="cite-box" id="cite-apa">Morgan, J. J. (2026). <em>The National Twisted Tea Incident Registry</em> [Data set]. Retrieved from https://jjmorgannet.github.io/dashboard/twisted-tea/</div>
+      <button type="button" class="cite-copy-btn" data-cite-target="cite-apa">Copy APA citation</button>
+    </div>
+
+    <div class="cite-block">
+      <p class="cite-label">BibTeX</p>
+      <div class="cite-box" id="cite-bibtex">@misc{morgan2026twistedtea,
+  author = {Morgan, Jonathan J.},
+  title = {The National Twisted Tea Incident Registry: A National Census of Improvised Malt-Beverage Weaponization},
+  year = {2026},
+  howpublished = {\url{https://jjmorgannet.github.io/dashboard/twisted-tea/}},
+  note = {Peer reviewed: No. Replication code: Inadvisable.}
+}</div>
+      <button type="button" class="cite-copy-btn" data-cite-target="cite-bibtex">Copy BibTeX</button>
+    </div>
   </section>
 
   <section id="download">
@@ -763,6 +820,40 @@ aside.sidebar,
     document.getElementById('charges-caption').innerHTML =
       '<strong>Figure 3.</strong> Charges filed, where reported &mdash; hover or tap a bar.';
   }
+
+  function wireCiteButtons(){
+    document.querySelectorAll('.cite-copy-btn').forEach(function(btn){
+      btn.addEventListener('click', function(){
+        var targetId = btn.getAttribute('data-cite-target');
+        var box = document.getElementById(targetId);
+        var text = box.textContent;
+        var original = btn.textContent;
+        function markCopied(){
+          btn.textContent = 'Copied!';
+          btn.classList.add('copied');
+          setTimeout(function(){
+            btn.textContent = original;
+            btn.classList.remove('copied');
+          }, 1600);
+        }
+        if (navigator.clipboard && navigator.clipboard.writeText){
+          navigator.clipboard.writeText(text).then(markCopied);
+        } else {
+          var ta = document.createElement('textarea');
+          ta.value = text;
+          ta.style.position = 'fixed';
+          ta.style.opacity = '0';
+          document.body.appendChild(ta);
+          ta.select();
+          document.execCommand('copy');
+          document.body.removeChild(ta);
+          markCopied();
+        }
+      });
+    });
+  }
+
+  wireCiteButtons();
 
   fetch('twisted-tea-incidents.json?v=' + Date.now(), { cache: 'no-store' })
     .then(function(r){ return r.json(); })
