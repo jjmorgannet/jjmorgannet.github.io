@@ -228,6 +228,16 @@ aside.sidebar,
 .page,
 .page__content,
 .archive { width: 100% !important; max-width: 100% !important; float: none !important; margin-left: 0 !important; margin-right: 0 !important; }
+.tta-dash .vbarchart-wrap{position:relative;}
+.tta-dash .trend-overlay{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:170px;
+    pointer-events:none;
+    overflow:visible;
+  }
 .tta-dash .vbarchart{
     display:flex;
     align-items:flex-end;
@@ -289,6 +299,18 @@ aside.sidebar,
   }
 .tta-dash .status-pill.provisional{background:#FEF6CC;color:var(--amber-deep);border-color:#F5E9A8;}
 .tta-dash .excluded-table th{width:110px;}
+.tta-dash .reason-pill{
+    display:inline-block;
+    font-family:"IBM Plex Mono",monospace;
+    font-size:0.68rem;
+    padding:3px 10px;
+    border-radius:999px;
+    background:var(--paper-dark);
+    color:var(--ink-soft);
+    border:1px solid var(--line);
+    white-space:nowrap;
+    cursor:default;
+  }
 .tta-dash .why{color:var(--brick);}
 .tta-dash .methodology dt{
     font-family:"IBM Plex Mono",monospace;
@@ -324,6 +346,19 @@ aside.sidebar,
     padding:32px 0 60px;
     font-size:0.75rem;
     color:var(--ink-soft);
+  }
+.tta-dash .corr-author-label{
+    font-family:"IBM Plex Mono",monospace;
+    text-transform:uppercase;
+    letter-spacing:0.04em;
+    font-size:0.68rem;
+    color:var(--ink-soft);
+    margin:0 0 8px;
+  }
+.tta-dash .corr-author{
+    border-top:1px solid var(--line);
+    padding-top:16px;
+    line-height:1.7;
   }
 .tta-dash .sources-list{margin:6px 0 0;padding-left:18px;font-size:0.75rem;}
 .tta-dash .sources-list li{margin-bottom:2px;}
@@ -377,6 +412,7 @@ aside.sidebar,
       <span class="meta-highlight" id="meta-n">n = &hellip;</span>
       <span>Coverage: national</span>
       <span>Peer reviewed: no</span>
+      <span>Cited by: 0 (tied for most-cited Twisted Tea registry)</span>
     </div>
   </header>
 
@@ -464,7 +500,10 @@ aside.sidebar,
 
     <div class="fig-row">
       <figure class="fig">
-        <div class="vbarchart" id="vbarchart"></div>
+        <div class="vbarchart-wrap">
+          <div class="vbarchart" id="vbarchart"></div>
+          <svg id="trend-overlay" class="trend-overlay" preserveAspectRatio="none"></svg>
+        </div>
         <figcaption class="fig-caption" id="year-caption"><em>Loading&hellip;</em></figcaption>
       </figure>
       <figure class="fig fig-bottom">
@@ -522,6 +561,12 @@ aside.sidebar,
   <section id="methodology">
     <h2>Methodology</h2>
     <dl class="methodology">
+      <dt>Preregistration</dt>
+      <dd>Not preregistered on OSF or any comparable registry. Any resemblance between the hypotheses this
+        registry appears to test and the findings it reports is coincidental.</dd>
+      <dt>Positionality statement</dt>
+      <dd>The author has never personally been struck with a can of Twisted Tea, to his knowledge, and
+        acknowledges this as a limitation of his lived-experience access to the phenomenon under study.</dd>
       <dt>Inclusion/exclusion criteria</dt>
       <dd>A can of Twisted Tea, opened or unopened, used as a striking implement against a person during an
         altercation. The can must do the hitting. Being present, being stolen, or merely being consumed
@@ -538,10 +583,35 @@ aside.sidebar,
       <dt>Coding & inter-rater reliability</dt>
       <dd>"Two coders independently verified brand identity from available sources. Inter-rater reliability
           was strong (κ = 0.94); disputes were limited to whether a smashed can was original Lemon or Half & Half.</dd>
+      <dt>Robustness checks</dt>
+      <dd>Results are robust to the exclusion of the registry's single outlier year, which happens to account
+        for half of all confirmed incidents. A sensitivity analysis dropping the index case entirely was
+        conducted and immediately regretted, as it leaves n = 2.</dd>
       <dt>Limitations</dt>
       <dd>The sample is small enough that any trend line is decorative. A 2020 cluster reflects two unrelated
         incidents six years ago, not a wave. Absence of a state from this list means no reported case was found,
         not that none occurred.</dd>
+    </dl>
+  </section>
+
+  <section id="policy">
+    <h2>Policy implications</h2>
+    <p>The findings raise several important questions for policymakers, none of which this dataset is
+      equipped to answer.</p>
+    <dl class="methodology">
+      <dt>Should Twisted Tea cans be classified as weapons?</dt>
+      <dd>No evidence in this dataset addresses this question, largely because the dataset's entire premise
+        depends on the can not usually being one.</dd>
+      <dt>Should convenience stores receive Twisted Tea violence-prevention training?</dt>
+      <dd>Existing controls (a clerk standing near the register) already intercept a meaningful share of
+        incidents, per the theft entries in this registry. Further study is not recommended.</dd>
+      <dt>Should Twisted Tea cans be redesigned for safety?</dt>
+      <dd>The can's current design has not been shown to either cause or prevent its use as a weapon, a
+        distinction the manufacturer has not been asked to weigh in on and will not be.</dd>
+      <dt>Should researchers receive grants to investigate this phenomenon?</dt>
+      <dd>This question deserves approximately $2.4 million in further study, an estimated sample size of 4,
+        and a multi-year timeline generous enough to let the phenomenon either resolve itself or be forgotten.
+        <br><strong>Recommended next step:</strong> conduct a larger national study.</dd>
     </dl>
   </section>
 
@@ -580,6 +650,13 @@ aside.sidebar,
   </section>
 
   <footer>
+    <p class="corr-author-label">Corresponding author</p>
+    <p class="corr-author">
+      Jonathan J. Morgan &middot; University of Cincinnati, Department of Independent Research Interests<br>
+      <a href="mailto:morga3jj@mail.uc.edu">morga3jj@mail.uc.edu</a> &middot;
+      <a href="https://orcid.org/0009-0007-5973-8236" target="_blank" rel="noopener">ORCID: 0009-0007-5973-8236</a><br>
+      Manuscript status: Under review since 2026. Reviewer 2 has concerns.
+    </p>
   </footer>
 
 </div>
@@ -715,8 +792,9 @@ aside.sidebar,
 
   function renderExcluded(data){
     var rows = data.excluded.map(function(x){
+      var pill = '<span class="reason-pill" title="' + esc(x.why_excluded) + '">' + esc(x.short_reason || x.reason_category) + '</span>';
       return '<tr><td>' + esc(x.date_display) + '</td><td>' + esc(x.location) + '</td><td>' +
-        esc(x.what_happened) + '</td><td>' + esc(x.why_excluded) + '</td><td>' + sourceLinks(x.sources) + '</td></tr>';
+        esc(x.what_happened) + '</td><td>' + pill + '</td><td>' + sourceLinks(x.sources) + '</td></tr>';
     }).join('\n');
     document.getElementById('excluded-tbody').innerHTML = rows;
   }
@@ -785,9 +863,11 @@ aside.sidebar,
     for (var y = minYear; y <= maxYear; y++){ if (years[y] && years[y].count > maxCount) maxCount = years[y].count; }
     var html = '';
     var firstYear = null, firstCount = 0;
+    var countsArr = [];
     for (var y = minYear; y <= maxYear; y++){
       var info = years[y];
       var count = info ? info.count : 0;
+      countsArr.push(count);
       if (count > 0 && firstYear === null){ firstYear = y; firstCount = count; }
       var isProvisional = info && info.statuses.indexOf('confirmed') === -1 && info.statuses.indexOf('provisional') !== -1;
       var barClass = count === 0 ? 'zero' : (isProvisional ? 'provisional' : '');
@@ -799,9 +879,41 @@ aside.sidebar,
         '<span class="vbar-year">' + y + '</span></div>';
     }
     document.getElementById('vbarchart').innerHTML = html;
+
+    var n = countsArr.length;
+    var sumX = 0, sumY = 0, sumXY = 0, sumX2 = 0;
+    for (var i = 0; i < n; i++){
+      sumX += i; sumY += countsArr[i]; sumXY += i * countsArr[i]; sumX2 += i * i;
+    }
+    var denom = (n * sumX2 - sumX * sumX) || 1;
+    var slope = (n * sumXY - sumX * sumY) / denom;
+    var intercept = (sumY - slope * sumX) / n;
+    var meanY = sumY / n;
+    var ssRes = 0, ssTot = 0;
+    for (var i = 0; i < n; i++){
+      var pred = slope * i + intercept;
+      ssRes += Math.pow(countsArr[i] - pred, 2);
+      ssTot += Math.pow(countsArr[i] - meanY, 2);
+    }
+    var r2 = ssTot === 0 ? 0 : Math.max(0, 1 - ssRes / ssTot);
+
+    function predToY(idx){
+      var predCount = slope * idx + intercept;
+      var yFromBottom = 20 + (predCount / maxCount) * 110;
+      return 170 - yFromBottom;
+    }
+    var x0 = (0.5 / n) * 100;
+    var x1 = ((n - 1) + 0.5) / n * 100;
+    var overlay = document.getElementById('trend-overlay');
+    overlay.setAttribute('viewBox', '0 0 100 170');
+    overlay.innerHTML =
+      '<line x1="' + x0.toFixed(2) + '" y1="' + predToY(0).toFixed(2) + '" x2="' + x1.toFixed(2) +
+      '" y2="' + predToY(n - 1).toFixed(2) + '" stroke="var(--amber-deep)" stroke-width="1.5" stroke-dasharray="4 3" vector-effect="non-scaling-stroke"></line>';
+
     document.getElementById('year-caption').innerHTML =
       '<strong>Figure 2.</strong> Incidents by year &mdash; hover or tap a column. The registry currently spans ' + minYear +
-      ' through ' + maxYear + '. A registry with n = ' + data.confirmed.length + ' supports no claims about trends.';
+      ' through ' + maxYear + '. Linear trend fitted per reviewer request: R&sup2; = ' + r2.toFixed(2) +
+      ', n = ' + n + '. Extrapolate at your own risk.';
   }
 
   function renderChargesChart(data){
