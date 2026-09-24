@@ -520,6 +520,21 @@ aside.sidebar,
     </div>
   </section>
 
+  <section id="origin">
+    <h2>The index case</h2>
+    <div class="origin">
+      <p>Every entry in this registry exists downstream of one video. On December 24, 2020, footage from a
+        Circle K in Elyria, Ohio, showed a man hurling racial slurs at another customer until the customer,
+        Barry Allen, hit him with a tallboy of Twisted Tea. No charges were filed. The video became one of the
+        most-shared clips of that December, and "using a Twisted Tea can as a weapon" became internet shorthand
+        for justified retaliation long before anyone had reason to check whether it kept happening.</p>
+      <p>It has happened at least twice more since, for reasons that have nothing to do with racism or memes:
+        a domestic dispute and a workplace confrontation. Whether that is a real pattern or just three unrelated
+        news stories that happen to share a beverage brand is exactly the kind of question a registry with n = 3
+        cannot answer, which is the point.</p>
+    </div>
+  </section>
+
   <section id="incidents">
     <h2>Confirmed incidents</h2>
     <div id="case-blocks"><p><em>Loading&hellip;</em></p></div>
@@ -549,41 +564,6 @@ aside.sidebar,
         and a multi-year timeline generous enough to let the phenomenon either resolve itself or be forgotten.
         <br><strong>Recommended next step:</strong> conduct a larger national study.</dd>
     </dl>
-  </section>
-
-  <section id="excluded">
-    <h2>Excluded cases</h2>
-    <p>Searching "Twisted Tea" and "assault" mostly returns theft reports, several DUIs, and a
-      genuinely large number of convenience store robberies. Each near miss is logged with the reason it failed,
-      because a registry that only shows what it counted hides the interesting part.</p>
-
-    <figure class="fig">
-      <div class="piechart-wrap">
-        <svg id="exclusion-pie" viewBox="0 0 200 200" role="img" aria-label="Donut chart of primary exclusion reasons"></svg>
-        <div class="pie-legend" id="pie-legend"></div>
-      </div>
-      <figcaption class="fig-caption" id="pie-caption"><em>Loading&hellip;</em></figcaption>
-    </figure>
-
-    <table class="excluded-table">
-      <thead><tr><th>Date</th><th>Location</th><th>What happened</th><th>Why excluded</th><th>Source</th></tr></thead>
-      <tbody id="excluded-tbody"></tbody>
-    </table>
-  </section>
-
-  <section id="origin">
-    <h2>The index case</h2>
-    <div class="origin">
-      <p>Every entry in this registry exists downstream of one video. On December 24, 2020, footage from a
-        Circle K in Elyria, Ohio, showed a man hurling racial slurs at another customer until the customer,
-        Barry Allen, hit him with a tallboy of Twisted Tea. No charges were filed. The video became one of the
-        most-shared clips of that December, and "using a Twisted Tea can as a weapon" became internet shorthand
-        for justified retaliation long before anyone had reason to check whether it kept happening.</p>
-      <p>It has happened at least twice more since, for reasons that have nothing to do with racism or memes:
-        a domestic dispute and a workplace confrontation. Whether that is a real pattern or just three unrelated
-        news stories that happen to share a beverage brand is exactly the kind of question a registry with n = 3
-        cannot answer, which is the point.</p>
-    </div>
   </section>
 
   <section id="methodology">
@@ -620,6 +600,26 @@ aside.sidebar,
         incidents six years ago, not a wave. Absence of a state from this list means no reported case was found,
         not that none occurred.</dd>
     </dl>
+  </section>
+
+  <section id="excluded">
+    <h2>Excluded cases</h2>
+    <p>Searching "Twisted Tea" and "assault" mostly returns theft reports, several DUIs, and a
+      genuinely large number of convenience store robberies. Each near miss is logged with the reason it failed,
+      because a registry that only shows what it counted hides the interesting part.</p>
+
+    <figure class="fig">
+      <div class="piechart-wrap">
+        <svg id="exclusion-pie" viewBox="0 0 200 200" role="img" aria-label="Donut chart of primary exclusion reasons"></svg>
+        <div class="pie-legend" id="pie-legend"></div>
+      </div>
+      <figcaption class="fig-caption" id="pie-caption"><em>Loading&hellip;</em></figcaption>
+    </figure>
+
+    <table class="excluded-table">
+      <thead><tr><th>Date</th><th>Location</th><th>What happened</th><th>Why excluded</th><th>Source</th></tr></thead>
+      <tbody id="excluded-tbody"></tbody>
+    </table>
   </section>
 
   <section id="citation">
