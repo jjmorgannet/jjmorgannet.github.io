@@ -10,7 +10,7 @@ author_profile: true
 ## Professional Presentations
 
 * **Morgan, J. J.** (2026, October). Not that different: The right and left on justice reform. Training to be presented at the [Western Region Reentry Summit](https://www.reentrysummitwest.com/), Reno, NV.
-* **Morgan, J. J.** (Chair), [Fields, L.](https://www.linkedin.com/in/louis-fields-29322a21b/), & [Mendis, L.](https://www.linkedin.com/in/lana-mendis-mba/) (2026, September). Don't call me a felon: Rewriting the language of crime coverage. Training to be presented at the [Society of Professional Journalists](https://www.spj.org/) Annual Meeting, Columbus, OH.
+* **Morgan, J. J.** (Chair), [Fields, L.](https://www.linkedin.com/in/louis-fields-29322a21b/), & [Mendis, L.](https://www.linkedin.com/in/lana-mendis-mba/) (2026, October). Don't call me a felon: Rewriting the language of crime coverage. [Society of Professional Journalists](https://www.spj.org/) Annual Meeting, Columbus, OH.
 * **Morgan, J. J.** (2026, April). Enemy of the state: Breaking through the barrier of systemic distrust. Plenary talk presented at the [Ohio Justice & Policy Center](https://ohiojpc.org/) Justice Symposium, Columbus, OH.
 * **Morgan, J. J.** & [Hickman, D.](https://www.linkedin.com/in/devon-h-40634824/) (2026, April). Moving beyond referrals: Best practices for building multidisciplinary teams for reentry. Training presented at the [National Conference on Higher Education in Prison](https://www.higheredinprison.org/nchep), Cleveland, OH.
 * **Morgan, J. J.** (2026, March). A national census of victim-offender dialogue programs in American prisons: Initial results. Paper presented at the [Academy of Criminal Justice Sciences](https://www.acjs.org/) Annual Meeting, Philadelphia, PA.
@@ -32,6 +32,7 @@ author_profile: true
 
 ## Invited Lectures and Presentations
 
+* **Morgan, J. J.** (2026, October). When does the sentence end? Stigma and reentry. (Instructor: Dr. Annika Martinez). Sociology Department, California State University, San Bernardino, San Bernardino, CA [Invited Virtual Lecturer].
 * **Morgan, J. J.** (2026, March). Introduction to restorative justice. (Instructor: [Natalie Artman](https://www.linkedin.com/in/artman-natalie/)). Department of Criminal Justice, [University of Cincinnati](https://www.uc.edu), Cincinnati, OH [Invited Lecturer].
 * **Morgan, J. J.** (2025, November). Beyond the bars: Men's mental health. Hope Alliance & [The Soar 4031 Foundation](https://picsisreal.org/), Cincinnati, OH [Invited Virtual Panelist and Facilitator].
 * **Morgan, J. J.** (2025, November). Corrections: Lived experience. (Instructor: [Dr. Lucy Tsado](https://orcid.org/0000-0002-1657-3693)). Department of Criminal Justice, [Lamar University](https://www.lamar.edu), Beaumont, TX [Invited Virtual Lecturer].
