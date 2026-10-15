@@ -9,9 +9,9 @@ author_profile: true
 
 ## Professional Presentations
 
-* **Morgan, J. J.** & [Boppre, B.](https://www.linkedin.com/in/bree-boppre/) (2026, October). When Does the Sentence End? Stigma and Reentry. [Western Region Reentry Summit](https://www.reentrysummitwest.com/), Reno, NV.
-* **Morgan, J. J.** (2026, October). Not that different: The right and left on justice reform. [Western Region Reentry Summit](https://www.reentrysummitwest.com/), Reno, NV.
-* **Morgan, J. J.** (Chair), [Fields, L.](https://www.linkedin.com/in/louis-fields-29322a21b/), & [Mendis, L.](https://www.linkedin.com/in/lana-mendis-mba/) (2026, October). Don't call me a felon: Rewriting the language of crime coverage. [Society of Professional Journalists](https://www.spj.org/) Annual Meeting, Columbus, OH.
+* **Morgan, J. J.** & [Boppre, B.](https://www.linkedin.com/in/bree-boppre/) (2026, October). When Does the Sentence End? Stigma and Reentry. Training presented at the [Western Region Reentry Summit](https://www.reentrysummitwest.com/), Reno, NV.
+* **Morgan, J. J.** (2026, October). Not that different: The right and left on justice reform. Training presented at the [Western Region Reentry Summit](https://www.reentrysummitwest.com/), Reno, NV.
+* **Morgan, J. J.** (Chair), [Fields, L.](https://www.linkedin.com/in/louis-fields-29322a21b/), & [Mendis, L.](https://www.linkedin.com/in/lana-mendis-mba/) (2026, October). Don't call me a felon: Rewriting the language of crime coverage. Training presented at the [Society of Professional Journalists](https://www.spj.org/) Annual Meeting, Columbus, OH.
 * **Morgan, J. J.** (2026, April). Enemy of the state: Breaking through the barrier of systemic distrust. Plenary talk presented at the [Ohio Justice & Policy Center](https://ohiojpc.org/) Justice Symposium, Columbus, OH.
 * **Morgan, J. J.** & [Hickman, D.](https://www.linkedin.com/in/devon-h-40634824/) (2026, April). Moving beyond referrals: Best practices for building multidisciplinary teams for reentry. Training presented at the [National Conference on Higher Education in Prison](https://www.higheredinprison.org/nchep), Cleveland, OH.
 * **Morgan, J. J.** (2026, March). A national census of victim-offender dialogue programs in American prisons: Initial results. Paper presented at the [Academy of Criminal Justice Sciences](https://www.acjs.org/) Annual Meeting, Philadelphia, PA.
