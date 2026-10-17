@@ -46,6 +46,7 @@ redirect_from:
 
 ## Non-Academic Fellowships, Honors, and Awards
 
+* 2026: Certificate of Special Congressional Recognition, [United States Senate](https://www.senate.gov/)
 * 2025: Policy Fellowship, [Crime and Justice Institute](https://www.cjinstitute.org/)
 * 2022: Certificate of Appreciation, Bureau of Re-Entry and Transition, [Florida Department of Corrections](https://www.fdc.myflorida.com/)
 * 2022: Certificate of Recognition for Service to the Community, [Re-Entry One](https://www.reentryone.org/)
