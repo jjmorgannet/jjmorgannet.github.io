@@ -36,7 +36,7 @@ author_profile: true
 
 ## Law Office Management
 
-* Clio - ★★★☆ _(Certified Affiliate Partner)_ <img src="https://www.justdatalytics.org/wp-content/uploads/2026/11/Clio-Affiliate-Partner.png)" alt="Clio Certified Affiliate Partner" width="50">
+* Clio - ★★★☆ _(Certified Affiliate Partner)_ <img src="https://www.justdatalytics.org/wp-content/uploads/2026/11/Clio-Affiliate-Partner.png)" alt="Clio Certified Affiliate Partner" width="75">
 * MyCase - ★★★☆
 * PracticePanther - ★★★★ _(Certified Partner)_ <img src="https://www.justdatalytics.org/wp-content/uploads/2026/08/PracticePanther_Certified_Partner_Badge.png" alt="PracticePanther Certified Partner" width="50">
 
