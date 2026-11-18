@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<title>Moved to jjmorgan.net</title>
+<meta name="robots" content="noindex">
+<script>
+(function () {
+  var NEW = "https://www.jjmorgan.net", MAP = {"/": "/", "/cv/": "/cv/", "/cv-json/": "/cv/", "/education/": "/cv/#education", "/presentations/": "/speaking/", "/publications/": "/research/", "/service/": "/cv/#service", "/skills/": "/skills/", "/teaching/": "/cv/#teaching", "/work/": "/cv/#experience", "/talks/": "/speaking/", "/portfolio/": "/", "/year-archive/": "/blog/", "/sitemap/": "/", "/dashboard/twisted-tea/": "/dashboard/twisted-tea/"}, PREFIX = [["/dashboard/", null], ["/publication", "/research/"], ["/talks/", "/speaking/"], ["/teaching/", "/cv/#teaching"], ["/files/", "/cv/"]];
+  var p = location.pathname.replace(/index\.html$/, '');
+  if (p.slice(-1) !== '/' && p.indexOf('.') < 0) p += '/';
+  var to = MAP[p];
+  if (!to) for (var i = 0; i < PREFIX.length; i++) if (p.indexOf(PREFIX[i][0]) === 0) { to = PREFIX[i][1] || location.pathname; break; }
+  location.replace(NEW + (to || '/') + location.hash);
+})();
+</script>
+<style>body{font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#13223a;max-width:560px;margin:15vh auto;padding:0 20px}a{color:#1f6f8b}</style>
+</head><body>
+<p>This site has moved to <a href="https://www.jjmorgan.net/">jjmorgan.net</a>.</p>
+</body></html>
